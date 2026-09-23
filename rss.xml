@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>티치핏거제 블로그</title>
+  <link>https://geoje.slovrest.com/blog.html</link>
+  <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
+  <language>ko-kr</language>
+  <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
+  <lastBuildDate>Wed, 23 Sep 2026 00:00:00 +0900</lastBuildDate>
+
+  <!-- RSS_ITEMS_START -->
+  <!-- 새 블로그 글 발행 시 이 주석 바로 아래에 <item> 추가 (최신순, 맨 위) -->
+  <!-- RSS_ITEMS_END -->
+
+</channel>
+</rss>
