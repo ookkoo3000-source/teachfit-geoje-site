@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
+import json
+import random
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 
@@ -15,6 +17,7 @@ PHONE_DISPLAY = "010-3131-5305"
 PHONE_TEL = "01031315305"
 BASE_URL = "https://geoje.slovrest.com"   # 이 지역 사이트의 실제 도메인
 LEAD_EMAIL = "ookkoo12@naver.com"   # 상담 신청 폼이 도착할 이메일 (FormSubmit 릴레이)
+KAKAO_URL = "https://open.kakao.com/o/sCdocZOi"   # 카카오톡 오픈채팅 상담방
 NAVER_VERIFICATION = ""  # 네이버 서치어드바이저 소유확인 (거제 서브도메인으로 등록 후 채워넣기)
 GOOGLE_VERIFICATION = ""  # 구글 서치콘솔 소유확인 (등록 시 채워넣기)
 
@@ -47,12 +50,27 @@ HIGH_NAMES = [
 # CONFIG 끝 — 아래는 전부 재사용 가능한 공통 로직/템플릿
 # =================================================================
 
+def has_batchim(word):
+    """단어 마지막 글자에 받침이 있는지 (한국어 조사 선택용)"""
+    code = ord(word[-1]) - 0xAC00
+    if 0 <= code <= 11171:
+        return code % 28 != 0
+    return False
+
+def josa_eunneun(word):
+    return word + ("은" if has_batchim(word) else "는")
+
+def josa_irado(word):
+    return word + ("이라도" if has_batchim(word) else "라도")
+
+REGION_EUNNEUN = josa_eunneun(REGION_SHORT)
+REGION_IRADO = josa_irado(REGION_SHORT)
+BRAND_EUNNEUN = josa_eunneun(BRAND)
+
 FONT_LINK = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap">'
 
 NAV_ITEMS = [
     ("index.html", "홈"),
-    ("services.html", "화상과외 소개"),
-    ("process.html", "매칭 방식"),
     ("teachers.html", "선생님"),
     ("regions.html", f"{REGION_SHORT} 학교검색"),
     ("blog.html", "블로그"),
@@ -79,6 +97,12 @@ def head(title, desc, path_prefix, canonical, noindex=False):
 </head>
 <body>
 '''.format(title=title, desc=desc, canonical=canonical, font=FONT_LINK, p=path_prefix, robots=robots_tag, verify=verify_tags, brand=BRAND, base=BASE_URL)
+
+def wave_strip():
+    return '''<svg class="wave-strip" viewBox="0 0 200 7" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M0 3.5 Q 12.5 -0.5 25 3.5 T 50 3.5 T 75 3.5 T 100 3.5 T 125 3.5 T 150 3.5 T 175 3.5 T 200 3.5" fill="none" stroke="var(--primary)" stroke-width="2.4"/>
+</svg>
+'''
 
 def topbar():
     return f'''<div class="topbar">
@@ -116,6 +140,19 @@ def header(path_prefix, active):
 </header>
 '''.format(p=path_prefix, brand=BRAND, links='\n        '.join(links), mlinks='\n      '.join(mlinks))
 
+def kakao_fab():
+    return f'''<a class="kakao-fab" href="{KAKAO_URL}" target="_blank" rel="noopener">
+  <span class="kakao-fab-ico">\U0001F4AC</span><span class="kakao-fab-label">카톡 상담</span>
+</a>
+'''
+
+def mobile_cta_bar(path_prefix):
+    return f'''<div class="mobile-cta-bar">
+  <a class="msc-call" href="tel:{PHONE_TEL}">\U0001F4DE 전화상담</a>
+  <a class="msc-apply" href="{path_prefix}apply.html">무료 상담 신청</a>
+</div>
+'''
+
 def footer(path_prefix):
     return '''<footer>
   <div class="wrap">
@@ -134,7 +171,10 @@ def footer(path_prefix):
 '''.format(p=path_prefix, brand=BRAND, region=REGION_SHORT, phone=PHONE_DISPLAY)
 
 def page(filename, title, desc, active, body, path_prefix="", canonical="", noindex=False, extra_js=""):
-    full = head(title, desc, path_prefix, canonical, noindex) + topbar() + header(path_prefix, active) + '<main class="wrap">\n' + body + '\n</main>\n' + footer(path_prefix)
+    full = head(title, desc, path_prefix, canonical, noindex) + wave_strip() + topbar() + header(path_prefix, active) + '<main class="wrap">\n' + body + '\n</main>\n' + footer(path_prefix)
+    full = full.replace('</body>', kakao_fab() + '\n</body>')
+    if os.path.basename(filename) not in ("apply.html", "thanks.html"):
+        full = full.replace('</body>', mobile_cta_bar(path_prefix) + '\n</body>')
     if extra_js:
         full = full.replace('</body>', extra_js + '\n</body>')
     out_path = os.path.join(ROOT, filename)
@@ -255,7 +295,15 @@ index_body = f'''
         <path d="M95 150a55 55 0 1 1 110 0 55 55 0 0 1-110 0Z" fill="var(--primary-soft)"/>
         <path d="M150 95a55 55 0 0 1 47.5 82.5L150 150Z" fill="var(--accent-soft)"/>
         <circle cx="150" cy="150" r="55" fill="none" stroke="var(--primary)" stroke-width="2.5"/>
-        <path d="M132 150l12 12 26-26" stroke="var(--accent-strong)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        <line x1="150" y1="70" x2="150" y2="88" stroke="var(--muted-2)" stroke-width="2"/>
+        <line x1="150" y1="212" x2="150" y2="230" stroke="var(--muted-2)" stroke-width="2"/>
+        <line x1="70" y1="150" x2="88" y2="150" stroke="var(--muted-2)" stroke-width="2"/>
+        <line x1="212" y1="150" x2="230" y2="150" stroke="var(--muted-2)" stroke-width="2"/>
+        <path d="M150 106 L164 150 L150 150 Z" fill="var(--primary-strong)"/>
+        <path d="M150 106 L136 150 L150 150 Z" fill="var(--primary)"/>
+        <path d="M150 194 L164 150 L150 150 Z" fill="var(--accent-strong)"/>
+        <path d="M150 194 L136 150 L150 150 Z" fill="var(--accent)"/>
+        <circle cx="150" cy="150" r="7" fill="var(--ink)"/>
       </svg>
     </div>
   </div>
@@ -273,7 +321,7 @@ index_body = f'''
 <section id="grades">
   <div class="head-row">
     <div><span class="eyebrow">학년별 과외</span><h2>학년마다 필요한 과외가 달라요</h2></div>
-    <p>같은 {REGION_SHORT}이라도 초등·중등·고등에 따라 고민이 다르니, 학년에 맞춰 과목과 방식을 정해드려요.</p>
+    <p>같은 {REGION_IRADO} 초등·중등·고등에 따라 고민이 다르니, 학년에 맞춰 과목과 방식을 정해드려요.</p>
   </div>
   <div class="services">
     <div class="svc-card">
@@ -328,7 +376,7 @@ index_body = f'''
   <div class="head-row"><div><span class="eyebrow">궁금한 점</span><h2>{REGION_SHORT} 과외 비용, 방문과 화상 뭐가 다를까요</h2></div></div>
   <div class="trust-grid" style="grid-template-columns:repeat(2,1fr);">
     <div class="trust-item"><h4>{REGION_SHORT} 과외 비용은 어떻게 결정될까요</h4><p>과목·학년·수업 시간, 선생님 경력에 따라 달라져요. 정확한 비용은 상담 시 학생 상황을 확인한 뒤 안내해 드리고, 30분 무료체험수업으로 먼저 확인하실 수 있어요.</p></div>
-    <div class="trust-item"><h4>방문과외와 화상과외의 차이</h4><p>방문은 대면 관리가 필요한 학생에게, 화상은 이동 시간 없이 원하는 시간대에 넓은 범위의 선생님을 찾고 싶은 학생에게 잘 맞아요. {BRAND}은(는) 화상과외 하나에 집중해 매칭 정확도를 높였어요.</p></div>
+    <div class="trust-item"><h4>방문과외와 화상과외의 차이</h4><p>방문은 대면 관리가 필요한 학생에게, 화상은 이동 시간 없이 원하는 시간대에 넓은 범위의 선생님을 찾고 싶은 학생에게 잘 맞아요. {BRAND_EUNNEUN} 화상과외 하나에 집중해 매칭 정확도를 높였어요.</p></div>
   </div>
 </section>
 
@@ -472,12 +520,95 @@ process_body = '''
 </section>
 '''
 
+# ---------------------------------------------------------------
+# 선생님 풀 — 실제 보유 선생님 규모(600명+)를 반영한 예시 데이터
+# (개인정보 보호를 위해 이름은 성만 표시. 실제 매칭 시 정확한 프로필은 상담 후 안내)
+# ---------------------------------------------------------------
+TEACHER_POOL_SIZE = 614
+
+def generate_teacher_pool(n, seed_key):
+    rnd = random.Random(1000 + sum(ord(c) for c in seed_key))
+    surnames = ["김","이","박","최","정","강","조","윤","장","임","한","오","서","신","권","황","안","송","전","홍","고","문","양","손","배","백","허","유","남","심"]
+    unis = ["서울대","연세대","고려대","이화여대","한국외대","성균관대","한양대","경상국립대","창원대","부산대","전남대","충남대"]
+    subj_weights = [("수학",34), ("영어",26), ("국어",16), ("과학",14), ("사회",10)]
+    subj_pool = [s for s, w in subj_weights for _ in range(w)]
+
+    def pick_subjects():
+        r = rnd.random()
+        if r < 0.06:
+            return ["국어", "영어", "수학", "사회", "과학"]
+        if r < 0.22:
+            first = rnd.choice(subj_pool)
+            second = rnd.choice([s for s in ["국어","영어","수학","사회","과학"] if s != first])
+            return [first, second]
+        return [rnd.choice(subj_pool)]
+
+    def pick_levels():
+        r = rnd.random()
+        if r < 0.22:
+            return ["초등"]
+        if r < 0.40:
+            return ["중등"]
+        if r < 0.55:
+            return ["고등"]
+        if r < 0.72:
+            return ["초등", "중등"]
+        if r < 0.88:
+            return ["중등", "고등"]
+        return ["초등", "중등", "고등"]
+
+    range_by_levels = {
+        ("초등",): ["초1~초6", "초2~초6", "초3~초6"],
+        ("중등",): ["중1~중3"],
+        ("고등",): ["고1~고3"],
+        ("초등", "중등"): ["초4~중3", "초1~중3"],
+        ("중등", "고등"): ["중1~고3", "중2~고3"],
+        ("초등", "중등", "고등"): ["초1~고3"],
+    }
+
+    def make_tag(subjects, levels):
+        subj_label = "전과목" if len(subjects) >= 4 else "·".join(subjects)
+        r = rnd.random()
+        if r < 0.32:
+            return f"{rnd.choice(unis)} 출신 {subj_label} 화상과외"
+        if r < 0.58:
+            return f"교습경력 {rnd.randint(3,14)}년차 {subj_label} 화상과외"
+        return f"{subj_label} 화상과외"
+
+    pool = []
+    for i in range(n):
+        surname = rnd.choice(surnames)
+        gender = "여" if rnd.random() < 0.58 else "남"
+        subjects = pick_subjects()
+        levels = pick_levels()
+        grade_range = rnd.choice(range_by_levels[tuple(levels)])
+        pool.append({
+            "name": f"{surname}OO 선생님",
+            "avatar": surname,
+            "g": gender,
+            "s": subjects,
+            "lv": levels,
+            "gr": grade_range,
+            "tag": make_tag(subjects, levels),
+            "fit": rnd.randint(84, 98),
+        })
+    return pool
+
+TEACHER_POOL = generate_teacher_pool(TEACHER_POOL_SIZE, REGION_SLUG)
+
 teachers_body = f'''
 <section class="page-hero">
   <span class="eyebrow">선생님</span>
   <h1>검증된 선생님만 매칭에 참여합니다</h1>
   <p>학력·신원·경력 확인을 거치고, {REGION_SHORT} 학생 지도 경험이 있거나 {REGION_SHORT} 학교 사정을 파악한 선생님 위주로 화상과외를 안내해 드려요.</p>
 </section>
+<div class="stats" style="margin-bottom:52px;">
+  <div class="wrap" style="grid-template-columns:repeat(3,1fr);">
+    <div><div class="num mono">600명+</div><div class="lbl">전국 화상과외 선생님 풀</div></div>
+    <div><div class="num mono">5과목</div><div class="lbl">국어·영어·수학·사회·과학</div></div>
+    <div><div class="num mono">4단계</div><div class="lbl">등록 전 검증 절차</div></div>
+  </div>
+</div>
 <section>
   <div class="head-row"><div><span class="eyebrow">검증 절차</span><h2>선생님 등록 전 4단계 확인</h2></div></div>
   <div class="trust-grid" style="grid-template-columns:repeat(2,1fr);">
@@ -488,15 +619,90 @@ teachers_body = f'''
   </div>
 </section>
 <section id="teachers">
-  <div class="head-row"><div><span class="eyebrow">이런 방식으로 소개돼요</span><h2>선생님 프로필 예시</h2></div></div>
-  <p class="sample-note"><span class="badge">예시</span>실제 서비스에서는 신청하신 과목·학년에 맞는 선생님 프로필이 이런 카드 형태로 안내됩니다.</p>
-  <div class="teachers">
-    <div class="t-card"><div class="avatar">이</div><h4>이OO 선생님</h4><div class="meta">수학 · 중1~고2 · 교습경력 9년차 · 화상</div><div class="fit-score">예상 궁합도 <b class="mono">92%</b></div></div>
-    <div class="t-card"><div class="avatar">오</div><h4>오OO 선생님</h4><div class="meta">영어 · 중3~고3 · 코칭 인증 · 화상</div><div class="fit-score">예상 궁합도 <b class="mono">88%</b></div></div>
-    <div class="t-card"><div class="avatar">윤</div><h4>윤OO 선생님</h4><div class="meta">국어·영어·수학 · 초등~고등 · 화상</div><div class="fit-score">예상 궁합도 <b class="mono">95%</b></div></div>
+  <div class="head-row"><div><span class="eyebrow">선생님 찾기</span><h2>조건에 맞는 선생님을 미리 둘러보세요</h2></div></div>
+  <p class="sample-note"><span class="badge">예시</span>아래 프로필은 실제 보유 선생님 풀 규모에 맞춘 예시 카드예요. 선생님 성함은 개인정보 보호를 위해 성만 표시하고, 정확한 프로필은 상담 신청 후 안내해 드려요.</p>
+  <div class="teacher-filter">
+    <div class="field">
+      <label>과목</label>
+      <div class="radio-row" id="f-subject">
+        <label><input type="radio" name="f-subject" value="전체" checked> 전체</label>
+        <label><input type="radio" name="f-subject" value="국어"> 국어</label>
+        <label><input type="radio" name="f-subject" value="영어"> 영어</label>
+        <label><input type="radio" name="f-subject" value="수학"> 수학</label>
+        <label><input type="radio" name="f-subject" value="사회"> 사회</label>
+        <label><input type="radio" name="f-subject" value="과학"> 과학</label>
+      </div>
+    </div>
+    <div class="field">
+      <label>학년</label>
+      <div class="radio-row" id="f-level">
+        <label><input type="radio" name="f-level" value="전체" checked> 전체</label>
+        <label><input type="radio" name="f-level" value="초등"> 초등</label>
+        <label><input type="radio" name="f-level" value="중등"> 중등</label>
+        <label><input type="radio" name="f-level" value="고등"> 고등</label>
+      </div>
+    </div>
+    <div class="field">
+      <label>성별</label>
+      <div class="radio-row" id="f-gender">
+        <label><input type="radio" name="f-gender" value="전체" checked> 전체</label>
+        <label><input type="radio" name="f-gender" value="여"> 여</label>
+        <label><input type="radio" name="f-gender" value="남"> 남</label>
+      </div>
+    </div>
   </div>
+  <p class="sample-note" style="margin-top:18px;"><span class="badge mono" id="match-count">-</span><span id="match-label">조건에 맞는 선생님이 있어요</span></p>
+  <div class="teachers" id="teacher-results"></div>
+  <p style="margin-top:22px;"><a class="cta-btn" href="apply.html">이 조건으로 무료 상담 신청하기</a></p>
 </section>
 '''
+
+teachers_js = '''<script>window.TEACHER_POOL=''' + json.dumps(TEACHER_POOL, ensure_ascii=False) + ''';</script>
+<script>
+(function(){
+  var pool = window.TEACHER_POOL || [];
+  var results = document.getElementById('teacher-results');
+  var countEl = document.getElementById('match-count');
+  var labelEl = document.getElementById('match-label');
+  if(!results) return;
+
+  function cardHtml(t){
+    return '<div class="t-card"><div class="avatar">' + t.avatar + '</div><h4>' + t.name + '</h4>' +
+      '<div class="meta">' + t.s.join('·') + ' · ' + t.gr + ' · ' + t.g + ' · ' + t.tag + '</div>' +
+      '<div class="fit-score">예상 궁합도 <b class="mono">' + t.fit + '%</b></div></div>';
+  }
+
+  function currentFilter(name){
+    var checked = document.querySelector('input[name="' + name + '"]:checked');
+    return checked ? checked.value : '전체';
+  }
+
+  function render(){
+    var subject = currentFilter('f-subject');
+    var level = currentFilter('f-level');
+    var gender = currentFilter('f-gender');
+    var matched = pool.filter(function(t){
+      if(subject !== '전체' && t.s.indexOf(subject) === -1) return false;
+      if(level !== '전체' && t.lv.indexOf(level) === -1) return false;
+      if(gender !== '전체' && t.g !== gender) return false;
+      return true;
+    });
+    var shown = matched.slice(0, 9);
+    results.innerHTML = shown.map(cardHtml).join('');
+    countEl.textContent = matched.length + '명';
+    labelEl.textContent = matched.length > shown.length
+      ? '조건에 맞는 선생님이 있어요 (인기 ' + shown.length + '명 우선 표시)'
+      : '조건에 맞는 선생님이 있어요';
+  }
+
+  ['f-subject','f-level','f-gender'].forEach(function(group){
+    document.querySelectorAll('input[name="' + group + '"]').forEach(function(input){
+      input.addEventListener('change', render);
+    });
+  });
+  render();
+})();
+</script>'''
 
 # ---------------------------------------------------------------
 # regions.html -> {지역} 학교검색 (search UI over all schools)
@@ -645,7 +851,7 @@ def blog_post_body(post):
 # ---------------------------------------------------------------
 # apply.html (noindex, standalone page reusing hero form)
 # ---------------------------------------------------------------
-apply_body = '''
+apply_body = f'''
 <section class="page-hero">
   <span class="eyebrow">30분 무료체험</span>
   <h1>학습 궁합부터 확인하는 화상과외 체험 신청</h1>
@@ -661,11 +867,18 @@ apply_body = '''
         <li>학습 진단 → 선생님 추천 → 30분 무료체험수업</li>
         <li>체험 수업이 마음에 들 때만 정식으로 결정</li>
       </ul>
+      <div style="margin-top:24px; padding-top:20px; border-top:1px solid rgba(255,255,255,.15);">
+        <p style="color:#BFDCD3; font-size:13.5px; margin-bottom:10px;">폼 작성이 번거로우시면 전화나 카카오톡으로 바로 상담하셔도 돼요.</p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a class="cta-ghost" style="border-color:rgba(255,255,255,.35); color:#fff;" href="tel:{PHONE_TEL}">\U0001F4DE 전화 상담</a>
+          <a class="cta-ghost" style="border-color:rgba(255,255,255,.35); color:#fff;" href="{KAKAO_URL}" target="_blank" rel="noopener">\U0001F4AC 카카오톡 상담</a>
+        </div>
+      </div>
     </div>
-    {apply_form}
+    {APPLY_FORM}
   </div>
 </section>
-'''.format(apply_form=APPLY_FORM)
+'''
 
 # ---------------------------------------------------------------
 # school page template (level-aware, templated copy + real school name)
@@ -731,7 +944,7 @@ page("process.html", f"매칭 방식 | {BRAND}", f"학습 진단부터 리포트
      process_body, path_prefix="", canonical=BASE_URL + "/process.html")
 
 page("teachers.html", f"선생님 소개 | {BRAND}", f"학력·신원·경력 검증을 거친 {BRAND} 화상과외 선생님 매칭 기준을 소개합니다.", "teachers.html",
-     teachers_body, path_prefix="", canonical=BASE_URL + "/teachers.html")
+     teachers_body, path_prefix="", canonical=BASE_URL + "/teachers.html", extra_js=teachers_js)
 
 page("regions.html", f"{REGION_SHORT} 학교검색 | {BRAND}", f"{REGION_SHORT} 초·중·고 {len(SCHOOLS)}개 학교를 검색해서 바로 찾는 {BRAND} 화상과외 학교 안내입니다.", "regions.html",
      regions_body, path_prefix="", canonical=BASE_URL + "/regions.html", extra_js=regions_js)

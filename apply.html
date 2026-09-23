@@ -12,6 +12,9 @@
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<svg class="wave-strip" viewBox="0 0 200 7" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M0 3.5 Q 12.5 -0.5 25 3.5 T 50 3.5 T 75 3.5 T 100 3.5 T 125 3.5 T 150 3.5 T 175 3.5 T 200 3.5" fill="none" stroke="var(--primary)" stroke-width="2.4"/>
+</svg>
 <div class="topbar">
   <div class="wrap">
     <span>지금 신청하면 30분 무료체험수업부터 받아보실 수 있어요</span>
@@ -24,8 +27,6 @@
     <div class="navwrap">
       <nav class="main">
         <a href="index.html">홈</a>
-        <a href="services.html">화상과외 소개</a>
-        <a href="process.html">매칭 방식</a>
         <a href="teachers.html">선생님</a>
         <a href="regions.html">거제 학교검색</a>
         <a href="blog.html">블로그</a>
@@ -37,8 +38,6 @@
   <div class="mobile-nav-wrap">
     <nav class="mobile-nav">
       <a href="index.html">홈</a>
-      <a href="services.html">화상과외 소개</a>
-      <a href="process.html">매칭 방식</a>
       <a href="teachers.html">선생님</a>
       <a href="regions.html">거제 학교검색</a>
       <a href="blog.html">블로그</a>
@@ -63,6 +62,13 @@
         <li>학습 진단 → 선생님 추천 → 30분 무료체험수업</li>
         <li>체험 수업이 마음에 들 때만 정식으로 결정</li>
       </ul>
+      <div style="margin-top:24px; padding-top:20px; border-top:1px solid rgba(255,255,255,.15);">
+        <p style="color:#BFDCD3; font-size:13.5px; margin-bottom:10px;">폼 작성이 번거로우시면 전화나 카카오톡으로 바로 상담하셔도 돼요.</p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a class="cta-ghost" style="border-color:rgba(255,255,255,.35); color:#fff;" href="tel:01031315305">📞 전화 상담</a>
+          <a class="cta-ghost" style="border-color:rgba(255,255,255,.35); color:#fff;" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">💬 카카오톡 상담</a>
+        </div>
+      </div>
     </div>
     <form class="form-card" action="https://formsubmit.co/ookkoo12@naver.com" method="POST">
       <input type="hidden" name="_subject" value="[티치핏거제] 새 상담 신청">
@@ -99,5 +105,9 @@
   </div>
 </footer>
 <script src="assets/site.js"></script>
+<a class="kakao-fab" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">
+  <span class="kakao-fab-ico">💬</span><span class="kakao-fab-label">카톡 상담</span>
+</a>
+
 </body>
 </html>
