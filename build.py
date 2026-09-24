@@ -964,7 +964,7 @@ BLOG_POSTS.append({
 BLOG_POSTS.append({
     "slug": "geoje-sinhyeon-hwasang-gwaoe-iyu",
     "title": "신현중학교·신현초등학교 화상과외, 요즘 학부모님들이 이걸 선택하는 이유",
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "category": "화상과외 소개",
     "teaser": "방문 과외 선생님 구하기 어려우셨다면, 신현중학교·신현초등학교 학부모님들이 화상과외를 선택하는 진짜 이유를 확인해보세요.",
     "body": '''
@@ -993,7 +993,7 @@ BLOG_POSTS.append({
 BLOG_POSTS.append({
     "slug": "geoje-jangpyeong-gimalgosa-daebi",
     "title": "장평중학교·장평고등학교 2학기 기말고사 대비, 화상과외로 준비하는 법",
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "category": "중고등 시험대비",
     "teaser": "장평중학교·장평고등학교 학생 기준으로, 2학기 기말고사를 남은 기간 동안 어떻게 준비하면 좋을지 화상과외 활용법과 함께 정리했어요.",
     "body": '''
@@ -1022,7 +1022,7 @@ BLOG_POSTS.append({
 BLOG_POSTS.append({
     "slug": "geoje-hacheong-gwaoe-seonsaengnim",
     "title": "하청초등학교·하청중학교 과외 선생님 구하기 어려우셨죠? 화상과외로 해결하세요",
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "category": "화상과외 소개",
     "teaser": "방문 선생님 구하기 어려운 하청 지역, 화상과외로 지역 제약 없이 선생님을 찾는 방법을 하청초등학교·하청중학교 기준으로 정리했어요.",
     "body": '''
@@ -1051,7 +1051,7 @@ BLOG_POSTS.append({
 BLOG_POSTS.append({
     "slug": "geoje-yeoncho-naeshin-gwanli",
     "title": "연초중학교·연초고등학교 내신관리, 시험 한 달 전부터 이렇게 준비하세요",
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "category": "중고등 내신관리",
     "teaser": "연초중학교·연초고등학교 학생 기준으로, 내신관리를 시험 한 달 전부터 어떻게 계획적으로 준비하면 좋을지 정리했어요.",
     "body": '''
@@ -1080,7 +1080,7 @@ BLOG_POSTS.append({
 BLOG_POSTS.append({
     "slug": "geoje-neungpo-jungang-seonhaeng",
     "title": "능포초등학교·거제중앙초등학교 선행학습, 무리하지 않고 시작하는 방법",
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "category": "초등 선행학습",
     "teaser": "능포초등학교·거제중앙초등학교 학생 기준으로, 선행학습을 무리하지 않고 아이 속도에 맞게 시작하는 방법을 정리했어요.",
     "body": '''
@@ -1297,7 +1297,7 @@ rss_xml = '''<?xml version="1.0" encoding="UTF-8"?>
 </channel>
 </rss>
 '''.format(brand=BRAND, base=BASE_URL, region=REGION_SHORT, items=rss_items,
-           lastbuild=rss_pubdate(BLOG_POSTS[0]["date"]) if BLOG_POSTS else rss_pubdate("2026-01-01"))
+           lastbuild=rss_pubdate(max(p["date"] for p in BLOG_POSTS)) if BLOG_POSTS else rss_pubdate("2026-01-01"))
 with open(os.path.join(ROOT, "rss.xml"), "w", encoding="utf-8") as f:
     f.write(rss_xml)
 print("wrote rss.xml")
