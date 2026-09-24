@@ -1,2 +1,5 @@
 github-support-ticket-draft*.txt
 .env.local
+scratch_*
+_gen.log
+__pycache__/
