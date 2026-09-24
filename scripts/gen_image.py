@@ -42,6 +42,7 @@ def generate(school, slug, model="gemini-3.1-flash-image"):
     im.thumbnail((720, 720))
     out = os.path.join(ROOT, "blog", "img", slug + ".webp")
     im.save(out, "WEBP", quality=82)
+    im.save(out[:-5] + ".jpg", "JPEG", quality=88)
     print("saved", out, os.path.getsize(out))
 
 if __name__ == "__main__":

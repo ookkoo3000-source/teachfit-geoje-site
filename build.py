@@ -1656,7 +1656,7 @@ for post in BLOG_POSTS:
         blog_post_body(post),
         path_prefix="../",
         canonical=BASE_URL + "/blog/{}.html".format(post["slug"]),
-        og_image=(BASE_URL + "/blog/img/{}.webp".format(post["slug"])) if os.path.exists(os.path.join(ROOT, "blog", "img", post["slug"] + ".webp")) else "",
+        og_image=(BASE_URL + "/blog/img/{}.jpg".format(post["slug"])) if os.path.exists(os.path.join(ROOT, "blog", "img", post["slug"] + ".webp")) else "",
     )
 
 page("apply.html", f"무료 상담 신청 | {BRAND}", f"{BRAND} 화상과외 매칭 무료 상담을 신청하세요.", "apply.html",
