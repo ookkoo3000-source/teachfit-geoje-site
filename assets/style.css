@@ -1,48 +1,53 @@
 :root{
-  --bg:#F2F6F8;
+  --bg:#F4FAFD;
   --surface:#FFFFFF;
-  --surface-2:#E6EEF3;
-  --ink:#0D2233;
-  --muted:#54707F;
-  --muted-2:#7C97A5;
-  --primary:#0E6089;
-  --primary-strong:#0A3E5C;
-  --primary-soft:#DCEBF3;
-  --accent:#E2762E;
-  --accent-strong:#C0591C;
-  --accent-soft:#FBE3CC;
-  --line:#D3E1E9;
-  --shadow: 0 18px 40px -22px rgba(10,45,66,.35);
-  --radius-lg: 22px;
-  --radius-md: 14px;
+  --surface-2:#E8F4FB;
+  --ink:#102A3C;
+  --muted:#4A6475;
+  --muted-2:#7B93A2;
+  --primary:#1B87C9;
+  --primary-strong:#0E639A;
+  --primary-soft:#DCEFFA;
+  --accent:#FF7A45;
+  --accent-strong:#E0561E;
+  --accent-soft:#FFE6DA;
+  --line:#D6E7F1;
+  --shadow: 0 18px 40px -24px rgba(27,135,201,.35);
+  --radius-lg: 20px;
+  --radius-md: 12px;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#081720; --surface:#0F2531; --surface-2:#12303F; --ink:#EAF3F8;
-    --muted:#9FC0CE; --muted-2:#7FA0AF; --primary:#4FB8E8; --primary-strong:#7FD1F0;
-    --primary-soft:#12374A; --accent:#F2985A; --accent-strong:#F7B27E; --accent-soft:#3A2412;
-    --line:#1D3A48; --shadow: 0 18px 40px -20px rgba(0,0,0,.6);
+    --bg:#0B1A24; --surface:#122532; --surface-2:#163041; --ink:#EAF3F8;
+    --muted:#9FC0CE; --muted-2:#7FA0AF; --primary:#3FA4E0; --primary-strong:#8FD0F3;
+    --primary-soft:#143549; --accent:#FF8A5B; --accent-strong:#FFAA85; --accent-soft:#3A2214;
+    --line:#1F3A4A; --shadow: 0 18px 40px -20px rgba(0,0,0,.6);
   }
 }
 :root[data-theme="dark"]{
-  --bg:#081720; --surface:#0F2531; --surface-2:#12303F; --ink:#EAF3F8;
-  --muted:#9FC0CE; --muted-2:#7FA0AF; --primary:#4FB8E8; --primary-strong:#7FD1F0;
-  --primary-soft:#12374A; --accent:#F2985A; --accent-strong:#F7B27E; --accent-soft:#3A2412;
-  --line:#1D3A48; --shadow: 0 18px 40px -20px rgba(0,0,0,.6);
+    --bg:#0B1A24; --surface:#122532; --surface-2:#163041; --ink:#EAF3F8;
+    --muted:#9FC0CE; --muted-2:#7FA0AF; --primary:#3FA4E0; --primary-strong:#8FD0F3;
+    --primary-soft:#143549; --accent:#FF8A5B; --accent-strong:#FFAA85; --accent-soft:#3A2214;
+    --line:#1F3A4A; --shadow: 0 18px 40px -20px rgba(0,0,0,.6);
 }
 
-/* 지역 톤: 진한 배경 위 글자, 블로그 상단 배너, 최상단 밴드 */
+/* 거제: 밝은 풍경 테마 (하늘색 바다 + 코랄 해) — 패널(상단바·상담박스·CTA·배너)은 밝게, 글자는 진하게. 다크모드에서도 패널은 밝게 유지 */
 :root{
-  --topbar-ink:#EEF6FA; --on-dark-ink:#EAF2F7; --on-dark:#DCEAF3; --on-dark-muted:#B5CFDF;
-  --cta-big-text:#D6E8F3; --banner-bg:#0B2536; --banner-glow:#1D4E6E; --banner-text:#D3E6F2; --banner-apply:#E2762E;
-  --pbox-shadow:rgba(10,45,66,.35);
-  --band-top:#BFDDEE; --band-bottom:#0E6089; --band-hi:#E2762E; --band-soft:#FBE3CC; --band-ink:#0A3E5C;
+  --panel-ink:#0E3A55; --panel-muted:#557386;
+  --topbar-ink:#0E3A55; --on-dark-ink:#0E3A55; --on-dark:#2A4E64; --on-dark-muted:#557386;
+  --cta-big-text:#2A4E64; --banner-bg:#E3F2FB; --banner-glow:#FFE6DA; --banner-text:#2A4E64; --banner-apply:#FF7A45;
+  --pbox-shadow:rgba(27,135,201,.25);
+  --band-top:#DDF0FB; --band-bottom:#9FD2F0; --band-hi:#FF7A45; --band-soft:#FFFFFF; --band-ink:#2F7FB5;
+  --panel:#E3F2FB; --panel-2:#CDE8F7; --on-accent:#FFFFFF; --banner-mark:#0E639A;
+  --b-hero-bg:#E6F4FC; --b-fade:rgba(244,250,253,.96); --b-fade-mid:rgba(244,250,253,.82);
+  --b-ink:#102A3C; --b-lead:#4A6475; --b-brand:#1B87C9; --b-brand-strong:#0E639A;
+  --b-shadow:rgba(27,135,201,.45); --b-line:#D6E7F1; --b-line-strong:#9ECFEA; --b-section:#EAF5FB;
+  --b-ph-art:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 110'%3E%3Ccircle cx='470' cy='30' r='18' fill='#FFB37F'/%3E%3Cpath d='M0 110 C 80 92 140 78 200 76 C 250 60 300 58 340 72 C 380 64 410 70 440 80 C 500 76 560 82 600 80 V110 Z' fill='#BFE0F2'/%3E%3Cg fill='#2F7FB5'%3E%3Crect x='470' y='52' width='4' height='36'/%3E%3Crect x='528' y='52' width='4' height='36'/%3E%3Crect x='464' y='48' width='74' height='6'/%3E%3Crect x='400' y='40' width='3' height='48'/%3E%3Crect x='384' y='40' width='44' height='3'/%3E%3C/g%3E%3Cpath d='M380 92 H560 L548 104 H392 Z' fill='#2F7FB5'/%3E%3Crect x='405' y='84' width='22' height='8' fill='#FFFFFF'/%3E%3C/svg%3E");
+  --b-ph-ground:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 40' preserveAspectRatio='none'%3E%3Cpath d='M0 40 V22 C 240 12 480 28 720 20 C 960 12 1200 26 1440 18 V40 Z' fill='#A3D2EC'/%3E%3Cpath d='M0 34 H1440 V40 H0 Z' fill='#EADFD0'/%3E%3C/svg%3E");
+  --tip-bg:#EAF5FC; --tip-line:#BFE0F3; --tip-ink:#0E639A; --card-bg:#F0F6FA; --check:#1B87C9;
 }
-
-/* 진한 패널(상단바·통계띠·상담박스·CTA) — 다크모드에서도 진하게 유지해서 글자 대비 확보 */
-:root{ --panel:#0A3E5C; --panel-2:#0E6089; --on-accent:#0A3E5C; --banner-mark:#FFD86B; }
-@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --panel:#0B2A3C; --panel-2:#124A66; --on-accent:#081720; } }
-:root[data-theme="dark"]{ --panel:#0B2A3C; --panel-2:#124A66; --on-accent:#081720; }
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --panel:#E3F2FB; --panel-2:#CDE8F7; --on-accent:#FFFFFF; } }
+:root[data-theme="dark"]{ --panel:#E3F2FB; --panel-2:#CDE8F7; --on-accent:#FFFFFF; }
 *{box-sizing:border-box;}
 html{background:var(--bg);}
 body{
@@ -357,7 +362,94 @@ mark.free{background:linear-gradient(transparent 55%, var(--accent-soft) 55%); c
 .post-hero{text-align:center;}
 .post-hero h1{margin-inline:auto;}
 .post-hero .hero-cta{justify-content:center;}
-/* 거제: 블로그 소제목 번호를 둥근 사각(선박 번호판 느낌), 카드 상단에 바다색 라인 */
-.pbox h2:before{border-radius:9px; background:var(--primary);}
-.pbox{border-top:4px solid var(--primary);}
-.stats{background:linear-gradient(180deg,var(--panel) 0%,var(--panel) 78%,var(--panel-2) 100%);}
+
+/* =================================================================
+   밝은 풍경 테마 (region.py BRIGHT = True 인 지역만 포함) — 구미 디자인 일반화
+   색은 theme.css의 --b-* 변수로 지역마다 다르게
+   ================================================================= */
+body{overflow-x:clip;}
+
+/* 메인 히어로: 화면 가로 전체 풍경 그림 + 왼쪽 글자 (그림이 밝아서 다크모드에서도 글자색 고정) */
+.hero{position:relative; isolation:isolate; overflow:hidden; background:var(--b-hero-bg);
+  margin-inline:calc(50% - 50vw); padding-inline:calc(50vw - 50%); padding-block:72px 240px;}
+.hero .grid{grid-template-columns:1fr;}
+.hero .grid > div:first-child{max-width:560px;}
+.hero .grid > div:last-child{position:absolute; inset:0; z-index:-2;}
+.hero-land{width:100%; height:100%; display:block;}
+.hero::before{content:""; position:absolute; inset:0; z-index:-1; pointer-events:none;
+  background:linear-gradient(90deg, var(--b-fade) 0%, var(--b-fade-mid) 32%, transparent 60%);}
+.hero h1{color:var(--b-ink);}
+.hero h1 em{color:var(--b-brand);}
+.hero p.lead{color:var(--b-lead);}
+.hero .eyebrow{color:var(--b-brand-strong); background:#fff; padding:6px 12px 6px 10px; border-radius:999px; box-shadow:0 4px 14px -8px var(--b-shadow);}
+.hero .trust-row{color:var(--b-lead);}
+.hero .cta-btn{background:var(--b-brand); color:#fff !important;}
+.hero .cta-ghost{background:#fff; border-color:#fff; color:var(--b-ink); box-shadow:0 6px 18px -10px var(--b-shadow);}
+.eyebrow::before{width:7px; height:7px; border-radius:50%; background:var(--accent);}
+
+/* 통계: 풍경 아래쪽에 걸쳐 떠 있는 흰 카드 */
+.stats{position:relative; z-index:2; background:#fff; border:1px solid var(--b-line); margin-top:-72px;
+  box-shadow:0 24px 50px -28px var(--b-shadow);}
+.stats::before{display:none;}
+.stats .num{color:var(--b-brand); font-family:'Space Mono',monospace; letter-spacing:-.02em;}
+.stats .lbl{color:var(--b-lead);}
+.stats .wrap > div + div{border-left:1px solid var(--b-line);}
+
+/* 섹션: 연한 배경 가로 전체로 교차 */
+#services,#process,#regions{margin-inline:calc(50% - 50vw); padding-inline:calc(50vw - 50%); background:var(--b-section);}
+
+/* 카드: 테두리 대신 부드러운 그림자, 호버 시 살짝 뜸 + 이모지 아이콘 */
+.svc-card,.t-card,.region-card,.article-card{border-color:transparent; box-shadow:0 12px 32px -20px var(--b-shadow); transition:transform .15s, box-shadow .15s;}
+.svc-card:hover,.t-card:hover,.region-card:hover,.article-card:hover{transform:translateY(-3px); box-shadow:0 18px 40px -20px var(--b-shadow);}
+.svc-card::before{font-size:30px; line-height:1;}
+#grades .svc-card:nth-child(1)::before{content:"🎒";}
+#grades .svc-card:nth-child(2)::before{content:"📘";}
+#grades .svc-card:nth-child(3)::before{content:"🎓";}
+#services .svc-card:nth-child(1)::before{content:"💻";}
+#services .svc-card:nth-child(2)::before{content:"🎬";}
+#services .svc-card:nth-child(3)::before{content:"📍";}
+.svc-card .tag{background:var(--primary-soft); color:var(--b-brand-strong);}
+.trust-item .ico{border-radius:12px; background:var(--primary-soft); color:var(--b-brand);}
+
+/* 하위 페이지 상단: 연한 배경 + 오른쪽 아래 지역 실루엣(--b-ph-art) */
+.page-hero{position:relative; margin-inline:calc(50% - 50vw); padding-inline:calc(50vw - 50%); padding-bottom:70px; margin-bottom:12px;
+  background:var(--b-ph-art) right bottom / auto 110px no-repeat, var(--b-ph-ground) left bottom / 100% 40px no-repeat,
+    linear-gradient(180deg, var(--b-hero-bg), var(--bg));}
+.page-hero h1{color:var(--b-ink);}
+.page-hero p{color:var(--b-lead);}
+.page-hero .eyebrow,.breadcrumb{color:var(--b-brand-strong);}
+
+/* 밝은 패널(상단바·상담박스·큰 CTA·블로그 배너) 위 글자 */
+.topbar a.phone{color:var(--b-brand-strong);}
+.apply-wrap{border:1px solid var(--b-line);}
+.apply-wrap::before{display:none;}
+.apply-wrap h2,.cta-big,.cta-big h2{color:var(--panel-ink);}
+.apply-wrap p,.cta-big p{color:var(--on-dark);}
+.apply-wrap .cta-ghost{color:var(--panel-ink) !important; border-color:var(--b-line-strong) !important; background:#fff;}
+.cta-sub{background:#fff; color:var(--panel-ink) !important; border-color:var(--b-line-strong);}
+.cta-big{box-shadow:0 18px 40px -26px var(--b-shadow);}
+.intro-banner{border:1px solid var(--b-line); box-shadow:none;}
+.ib-tag{background:#fff; color:var(--b-brand-strong);}
+.intro-banner mark.free{color:var(--b-brand-strong);}
+.form-card{box-shadow:0 10px 30px -18px var(--b-shadow);}
+
+/* 블로그: 소제목 번호 원 + 포인트색 테두리, 카드 왼쪽 선 */
+.pbox{border-left:3px solid var(--b-brand);}
+.pbox h2:before{background:var(--b-brand); box-shadow:0 0 0 2px var(--surface), 0 0 0 3.5px var(--accent);}
+mark.free{color:var(--b-brand-strong);}
+
+/* 모바일: 글자 아래에 풍경 그림, 통계 카드는 그림 위로 살짝 */
+@media (max-width:900px){
+  .hero{padding-block:36px 0;}
+  .hero::before{display:none;}
+  .hero .grid > div:last-child{position:relative; inset:auto; z-index:0; height:230px; margin-inline:calc(50% - 50vw); margin-top:8px;}
+  .stats{margin-top:-40px;}
+  .stats .wrap > div + div{border-left:0;}
+  .page-hero{background-size:auto 70px, 100% 30px, auto; padding-bottom:56px;}
+}
+/* 거제: 블로그 팁박스·체크를 바다색으로, 소제목 번호는 둥근 사각(선박 번호판 느낌) */
+:root{--tip-bg:#EAF5FC; --tip-line:#BFE0F3; --tip-ink:#0E639A; --card-bg:#F0F6FA; --check:#1B87C9;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--tip-bg:#132533; --tip-line:#244A63; --tip-ink:#8FD0F3; --card-bg:#18232D; --check:#3FA4E0;}}
+:root[data-theme="dark"]{--tip-bg:#132533; --tip-line:#244A63; --tip-ink:#8FD0F3; --card-bg:#18232D; --check:#3FA4E0;}
+.pbox h2:before{border-radius:9px;}
+.cta-main{box-shadow:0 10px 24px -10px rgba(224,86,30,.55);}
