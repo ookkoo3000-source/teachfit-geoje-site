@@ -6,9 +6,44 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 27 Sep 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 28 Sep 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>국산초등학교 수학과외, 공부 습관부터 잡는 1:1 지도</title>
+    <link>https://geoje.slovrest.com/blog/geoje-guksan-es-suhak-seupgwan.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-guksan-es-suhak-seupgwan.html</guid>
+    <description>수학 공부를 미루고 집중 시간이 짧은 국산초등학교 학생을 위해 수학 공부 습관을 만드는 순서와 학년별 기초 관리법을 정리했어요.</description>
+    <pubDate>Mon, 28 Sep 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제제일고등학교 영어과외, 내신 변형문제 완벽 대비</title>
+    <link>https://geoje.slovrest.com/blog/geoje-jeil-hs-yeongeo-byeonhyeong.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-jeil-hs-yeongeo-byeonhyeong.html</guid>
+    <description>본문을 여러 번 읽었는데도 변형문제에서 점수가 흔들리는 거제제일고등학교 학생을 위해 변형 유형별 대비법과 본문 분석 순서를 정리했어요.</description>
+    <pubDate>Mon, 28 Sep 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>동부중학교 수학과외, 취약 단원 집중 보완</title>
+    <link>https://geoje.slovrest.com/blog/geoje-dongbu-ms-suhak-chwiyak.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-dongbu-ms-suhak-chwiyak.html</guid>
+    <description>특정 단원에서 계속 점수를 잃는 동부중학교 학생을 위해 취약 단원을 찾고 메우는 방법과 시험 대비 흐름을 정리했어요.</description>
+    <pubDate>Mon, 28 Sep 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제용소초등학교 영어과외, 파닉스부터 차근차근</title>
+    <link>https://geoje.slovrest.com/blog/geoje-yongso-es-yeongeo-phonics.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-yongso-es-yeongeo-phonics.html</guid>
+    <description>알파벳은 아는데 단어를 읽지 못하는 거제용소초등학교 학생을 위해 파닉스 순서와 단어 학습을 함께 잡는 방법을 정리했어요.</description>
+    <pubDate>Mon, 28 Sep 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제고등학교 국어과외, 수능 독서 기초부터 탄탄하게</title>
+    <link>https://geoje.slovrest.com/blog/geoje-hs-gugeo-dokseo-gicho.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-hs-gugeo-dokseo-gicho.html</guid>
+    <description>국어 독서 지문에서 시간이 부족하고 정답률이 흔들리는 거제고등학교 학생을 위해 지문 구조 파악부터 선지 판단까지 기초 훈련법을 정리했어요.</description>
+    <pubDate>Mon, 28 Sep 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>거제용산초등학교 수학 선행과 심화, 우리 아이에게 먼저 필요한 쪽은 무엇일까요</title>
     <link>https://geoje.slovrest.com/blog/geoje-yongsan-es-seonhaeng-simhwa.html</link>
