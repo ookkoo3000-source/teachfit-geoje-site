@@ -6,9 +6,44 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 28 Sep 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 29 Sep 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>수월중학교 국어과외, 설명문 읽기 기초 다지기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-suwol-ms-gugeo-seolmyeongmun.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-suwol-ms-gugeo-seolmyeongmun.html</guid>
+    <description>설명하는 글을 읽어도 핵심을 잘 찾지 못하는 수월중학교 학생을 위해 설명문의 구조와 설명 방법, 요약하는 법을 단계별로 정리했어요.</description>
+    <pubDate>Tue, 29 Sep 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제상문고등학교 수학과외, 고1 다항식 기초 완성</title>
+    <link>https://geoje.slovrest.com/blog/geoje-sangmun-hs-suhak-dahangsik.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-sangmun-hs-suhak-dahangsik.html</guid>
+    <description>고등학교 첫 단원인 다항식에서 흔들리는 거제상문고등학교 학생을 위해 다항식 연산, 나머지정리, 인수분해를 단계별로 정리했어요.</description>
+    <pubDate>Tue, 29 Sep 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>내곡초등학교 영어과외, 영어 일기 쓰기 첫걸음</title>
+    <link>https://geoje.slovrest.com/blog/geoje-naegok-es-yeongeo-ilgi.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-naegok-es-yeongeo-ilgi.html</guid>
+    <description>영어 단어는 알지만 문장으로 쓰는 것은 어려워하는 내곡초등학교 학생을 위해 한 줄 영어 일기부터 시작하는 영어 쓰기 연습법을 정리했어요.</description>
+    <pubDate>Tue, 29 Sep 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>기성초등학교 수학과외, 도형과 넓이 기초 다지기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-giseong-es-suhak-neolbi.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-giseong-es-suhak-neolbi.html</guid>
+    <description>넓이 공식을 외워도 문제만 나오면 헷갈리는 기성초등학교 학생을 위해 도형의 성질부터 넓이 공식의 원리, 복잡한 도형 넓이 구하기까지 정리했어요.</description>
+    <pubDate>Tue, 29 Sep 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>성포중학교 영어과외, 영단어 오래 기억하는 법</title>
+    <link>https://geoje.slovrest.com/blog/geoje-seongpo-ms-yeongeo-daneo.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-seongpo-ms-yeongeo-daneo.html</guid>
+    <description>단어 시험 때는 외웠는데 금방 잊어버리는 성포중학교 학생을 위해 중학 영단어를 오래 기억하는 암기법과 복습 계획을 정리했어요.</description>
+    <pubDate>Tue, 29 Sep 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>국산초등학교 수학과외, 공부 습관부터 잡는 1:1 지도</title>
     <link>https://geoje.slovrest.com/blog/geoje-guksan-es-suhak-seupgwan.html</link>
