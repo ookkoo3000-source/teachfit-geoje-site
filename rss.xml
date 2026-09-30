@@ -6,9 +6,44 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 29 Sep 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>거제장평중학교 수학과외, 도형의 닮음 개념부터 활용까지</title>
+    <link>https://geoje.slovrest.com/blog/geoje-jangpyeong-ms-suhak-darmeum.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-jangpyeong-ms-suhak-darmeum.html</guid>
+    <description>닮음비와 닮음 조건이 헷갈리고 활용 문제에서 막히는 거제장평중학교 학생을 위해 도형의 닮음 단원을 개념부터 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>해성고등학교 영어과외, 주제·제목 대의파악 유형 잡기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-haeseong-hs-yeongeo-jeje.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-haeseong-hs-yeongeo-jeje.html</guid>
+    <description>영어 지문의 주제와 제목을 묻는 문제에서 선택지 두 개 사이를 고민하다 틀리는 해성고등학교 학생을 위해 대의파악 유형 풀이법을 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>동부초등학교 수학과외, 표와 그래프 읽기 연습</title>
+    <link>https://geoje.slovrest.com/blog/geoje-dongbu-es-suhak-geuraepeu.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-dongbu-es-suhak-geuraepeu.html</guid>
+    <description>표와 그래프를 보고 정보를 찾거나 그래프를 그리는 문제를 어려워하는 동부초등학교 학생을 위해 자료 정리와 그래프 해석 방법을 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>옥포성지중학교 국어과외, 시 감상과 표현법 정리</title>
+    <link>https://geoje.slovrest.com/blog/geoje-okpo-seongji-ms-gugeo-si.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-okpo-seongji-ms-gugeo-si.html</guid>
+    <description>시를 읽어도 화자의 마음과 표현법이 잘 잡히지 않는 옥포성지중학교 학생을 위해 시 감상 순서와 자주 나오는 표현법, 시험 대비법을 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>대우초등학교 수학과외, 각도와 삼각형 쉽게 이해하기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-daewoo-es-suhak-gakdo.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-daewoo-es-suhak-gakdo.html</guid>
+    <description>각도기 사용과 삼각형의 각 계산을 어려워하는 대우초등학교 학생을 위해 각의 크기 재기부터 삼각형과 사각형의 각의 합까지 단계별로 정리했어요.</description>
+    <pubDate>Wed, 30 Sep 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>수월중학교 국어과외, 설명문 읽기 기초 다지기</title>
     <link>https://geoje.slovrest.com/blog/geoje-suwol-ms-gugeo-seolmyeongmun.html</link>
