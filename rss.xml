@@ -6,9 +6,44 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 30 Sep 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 01 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>장목예술중학교 영어과외, 현재완료 시제 한 번에</title>
+    <link>https://geoje.slovrest.com/blog/geoje-jangmok-art-ms-yeongeo-hyeonjaewanryo.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-jangmok-art-ms-yeongeo-hyeonjaewanryo.html</guid>
+    <description>현재완료와 과거시제의 차이가 헷갈리고 have been과 have gone을 구분하지 못하는 장목예술중학교 학생을 위해 현재완료를 정리했어요.</description>
+    <pubDate>Thu, 01 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>명사초등학교 수학과외, 시각과 시간 계산 쉽게</title>
+    <link>https://geoje.slovrest.com/blog/geoje-myeongsa-es-suhak-sigak.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-myeongsa-es-suhak-sigak.html</guid>
+    <description>시계를 읽는 것과 시간의 덧셈, 뺄셈에서 60을 헷갈리는 명사초등학교 학생을 위해 시각과 시간 단원을 원리부터 정리했어요.</description>
+    <pubDate>Thu, 01 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>외포중학교 국어과외, 설명문 읽기 전략</title>
+    <link>https://geoje.slovrest.com/blog/geoje-oepo-ms-gugeo-seolmyeongmun.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-oepo-ms-gugeo-seolmyeongmun.html</guid>
+    <description>설명문을 읽어도 중심 내용을 찾지 못하고 설명 방법을 묻는 문제에서 헷갈리는 외포중학교 학생을 위해 설명문 읽기 전략을 정리했어요.</description>
+    <pubDate>Thu, 01 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>마전초등학교 국어과외, 일기 쓰기 습관 만들기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-majeon-es-gugeo-ilgi.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-majeon-es-gugeo-ilgi.html</guid>
+    <description>일기를 쓰라고 하면 오늘 뭐 했지부터 막막해하는 마전초등학교 학생을 위해 일기 쓰기를 즐겁게 이어가는 방법을 정리했어요.</description>
+    <pubDate>Thu, 01 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제고등학교 수학과외, 등차수열과 등비수열 정리</title>
+    <link>https://geoje.slovrest.com/blog/geoje-hs-suhak-suyeol.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-hs-suhak-suyeol.html</guid>
+    <description>일반항과 합 공식이 헷갈리고 수열의 합과 일반항의 관계에서 막히는 거제고등학교 학생을 위해 수열 단원을 정리했어요.</description>
+    <pubDate>Thu, 01 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>거제장평중학교 수학과외, 도형의 닮음 개념부터 활용까지</title>
     <link>https://geoje.slovrest.com/blog/geoje-jangpyeong-ms-suhak-darmeum.html</link>

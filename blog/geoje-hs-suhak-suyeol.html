@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>거제고등학교 수학과외, 등차수열과 등비수열 정리 | 티치핏거제</title>
+<meta name="description" content="일반항과 합 공식이 헷갈리고 수열의 합과 일반항의 관계에서 막히는 거제고등학교 학생을 위해 수열 단원을 정리했어요.">
+<link rel="canonical" href="https://geoje.slovrest.com/blog/geoje-hs-suhak-suyeol.html">
+<link rel="alternate" type="application/rss+xml" title="티치핏거제 블로그" href="https://geoje.slovrest.com/rss.xml">
+<meta name="naver-site-verification" content="0514b7bf183bd3f10e302b01ec5a15677b4a9253">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap">
+<link rel="stylesheet" href="../assets/style.css?v=fbc8479382">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="티치핏거제">
+<meta property="og:title" content="거제고등학교 수학과외, 등차수열과 등비수열 정리 | 티치핏거제">
+<meta property="og:description" content="일반항과 합 공식이 헷갈리고 수열의 합과 일반항의 관계에서 막히는 거제고등학교 학생을 위해 수열 단원을 정리했어요.">
+<meta property="og:url" content="https://geoje.slovrest.com/blog/geoje-hs-suhak-suyeol.html">
+<meta property="og:image" content="https://geoje.slovrest.com/blog/img/geoje-hs-suhak-suyeol.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://geoje.slovrest.com/blog/img/geoje-hs-suhak-suyeol.jpg">
+</head>
+<body>
+<div class="band band-geoje" aria-hidden="true">
+<svg class="band-bg" viewBox="0 0 800 56" preserveAspectRatio="none">
+  <defs><linearGradient id="geojeBandSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" style="stop-color:var(--band-top)"/><stop offset="100%" style="stop-color:var(--band-bottom)"/></linearGradient></defs>
+  <rect x="0" y="0" width="800" height="56" fill="url(#geojeBandSky)"/>
+  <path d="M0 44 Q 20 36 40 44 T 80 44 T 120 44 T 160 44 T 200 44 T 240 44 T 280 44 T 320 44 T 360 44 T 400 44 T 440 44 T 480 44 T 520 44 T 560 44 T 600 44 T 640 44 T 680 44 T 720 44 T 760 44 T 800 44" fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".55"/>
+  <path d="M0 51 Q 20 45 40 51 T 80 51 T 120 51 T 160 51 T 200 51 T 240 51 T 280 51 T 320 51 T 360 51 T 400 51 T 440 51 T 480 51 T 520 51 T 560 51 T 600 51 T 640 51 T 680 51 T 720 51 T 760 51 T 800 51" fill="none" stroke="var(--band-hi)" stroke-width="1.5" opacity=".4"/>
+  <g fill="#FFFFFF" opacity=".55">
+    <ellipse cx="140" cy="14" rx="26" ry="5"/><ellipse cx="160" cy="11" rx="16" ry="4"/>
+    <ellipse cx="420" cy="18" rx="30" ry="5"/><ellipse cx="440" cy="15" rx="14" ry="4"/>
+  </g>
+</svg>
+<svg class="band-motif" viewBox="0 0 230 56" preserveAspectRatio="xMaxYMax meet">
+  <circle cx="26" cy="18" r="9" fill="var(--band-hi)"/>
+  <g fill="var(--band-ink)">
+    <rect x="112" y="10" width="4" height="30"/><rect x="164" y="10" width="4" height="30"/><rect x="106" y="7" width="68" height="5"/>
+    <rect x="138" y="12" width="1.5" height="9"/>
+    <rect x="192" y="6" width="3.5" height="34"/><rect x="176" y="6" width="44" height="2.5"/><rect x="214" y="8.5" width="1.2" height="10"/>
+    <path d="M58 38 H212 L200 50 H70 Z"/>
+    <rect x="84" y="30" width="20" height="8"/><rect x="90" y="24" width="10" height="6"/>
+  </g>
+  <rect x="58" y="42" width="154" height="2" fill="var(--band-hi)" opacity=".8"/>
+</svg>
+</div>
+<div class="topbar">
+  <div class="wrap">
+    <span>지금 신청하면 30분 무료체험수업부터 받아보실 수 있어요</span>
+    <a class="phone" href="tel:01031315305">📞 010-3131-5305 (09:00–21:00)</a>
+  </div>
+</div>
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="../index.html"><span class="mark">TF</span>티치핏거제</a>
+    <div class="navwrap">
+      <nav class="main">
+        <a href="../index.html">홈</a>
+        <a href="../teachers.html">선생님</a>
+        <a href="../regions.html">거제 학교별 과외</a>
+        <a href="../blog.html" aria-current="page">블로그</a>
+      </nav>
+      <a class="cta-btn" href="../apply.html">무료 상담 신청</a>
+      <button class="menu-btn" aria-label="메뉴">☰</button>
+    </div>
+  </div>
+  <div class="mobile-nav-wrap">
+    <nav class="mobile-nav">
+      <a href="../index.html">홈</a>
+      <a href="../teachers.html">선생님</a>
+      <a href="../regions.html">거제 학교별 과외</a>
+      <a href="../blog.html" aria-current="page">블로그</a>
+      <a href="../apply.html">무료 상담 신청</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+
+<nav class="breadcrumb"><a href="../blog.html">블로그</a> / 고등 수학</nav>
+<section class="page-hero post-hero">
+  <span class="eyebrow">2026-10-01 · 고등 수학</span>
+  <h1>거제고등학교 수학과외, 등차수열과 등비수열 정리</h1>
+  <img class="post-cover" src="img/geoje-hs-suhak-suyeol.webp" width="720" height="720" alt="거제고등학교 수학과외 1:1 화상과외 안내" loading="eager">
+  <div class="hero-cta"><a class="cta-main" href="../apply.html">30분 무료체험 신청하기 →</a><span>상담·체험 모두 무료</span></div>
+</section>
+<section>
+  <article class="prose blog-prose">
+    <div class="intro-banner">
+  <span class="ib-tag">무료 상담 · 무료 체험</span>
+  <p>학생 학습 상태 진단과 학교 시험 분석을 함께 안내드려요.<br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요.</p>
+  <div class="ib-btns">
+    <a class="ib-kakao" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담 <i>↗</i></a>
+    <a class="ib-apply" href="../apply.html">무료체험 신청 <i>✨</i></a>
+  </div>
+</div><div class="summary-box"><strong>이 글 한눈에 보기</strong><ul><li>거제고등학교 학생이 수열을 어려워하는 이유</li><li>등차수열</li><li>등비수열</li><li>수열의 합과 시그마</li><li>합과 일반항의 관계와 귀납적 정의</li><li><b><mark class="free">30분 무료체험수업</mark></b>으로 먼저 확인해보실 수 있어요.</li></ul></div>
+<p>거제고등학교 2학년 학생들이 대수 과목에서 만나는 수열 단원은 규칙을 찾아 식으로 나타내는 힘을 기르는 단원이에요. 등차수열과 등비수열의 일반항, 합의 공식, 시그마 기호, 수열의 합과 일반항의 관계, 수학적 귀납법까지 이어지면서 공식이 많아 헷갈려하는 학생이 많아요.</p><p>특히 등차수열과 등비수열의 공식을 섞어 쓰거나, 항의 번호를 하나씩 밀려 계산하거나, 수열의 합에서 일반항을 구할 때 첫째항을 따로 확인하지 않아 틀리는 경우가 자주 있어요.</p><p>수열은 수능 수학에서 꾸준히 출제되는 단원이고, 규칙을 찾는 문제는 고난도 문항으로도 자주 나와요. 공식이 나오는 원리를 이해하고 문제의 조건을 차근차근 식으로 옮기면 수열은 논리적으로 풀리는 단원이에요.</p><p>이 글에서는 거제고등학교 학생이 수열을 어려워하는 이유, 등차수열, 등비수열, 수열의 합과 시그마, 합과 일반항의 관계와 귀납적 정의, 그리고 1:1 화상 수학 수업 활용법까지 차례대로 정리해 드릴게요.</p>
+<div class="pbox"><h2>거제고등학교 학생이 수열을 어려워하는 이유</h2>
+<p>수열을 어려워하는 첫 번째 이유는 공식이 많아서 헷갈리는 거예요. 등차수열과 등비수열의 일반항과 합의 공식, 시그마의 성질, 자연수의 거듭제곱의 합 공식이 비슷해 보여서 서로 섞어 쓰는 경우가 많아요.</p>
+<p>두 번째 이유는 공식을 원리 없이 외우는 거예요. 등차수열의 합 공식이 왜 그렇게 나오는지 모르면 변형된 문제나 조건이 바뀐 문제에서 공식을 적용하지 못해요.</p>
+<p>세 번째 이유는 항의 번호를 헷갈리는 거예요. 제n항에서 공차를 n빼기1번 더해야 하는데 n번 더하는 실수, 시그마의 범위를 잘못 읽는 실수가 자주 생겨요.</p>
+<p>네 번째 이유는 수열의 합과 일반항의 관계에서 첫째항을 놓치는 거예요. 합에서 일반항을 구하는 공식은 n이 2 이상일 때만 성립하는데, 이를 확인하지 않으면 틀린 답이 나와요.</p>
+<p>다섯 번째 이유는 문제의 조건을 식으로 옮기지 못하는 거예요. 문장으로 주어진 조건을 첫째항과 공차, 공비로 나타내는 연습이 부족하면 문제를 시작하지 못해요.</p>
+<p>여섯 번째로, 귀납적으로 정의된 수열에 익숙하지 않은 경우도 있어요. 앞의 항으로 다음 항을 정의하는 식을 보고 규칙을 찾지 못하면 고난도 문제에서 막히게 돼요.</p>
+<p>이런 원인은 공식의 원리를 이해하고 조건을 식으로 옮기는 연습을 하면 충분히 해결할 수 있어요.</p>
+<p>최근 시험지나 문제집에서 틀린 문제를 다시 풀어보면서 공식을 헷갈렸는지, 번호를 밀렸는지, 조건을 놓쳤는지 나눠 보세요.</p>
+<p>원인을 알고 공부하면 같은 시간을 써도 훨씬 효과적으로 실력을 올릴 수 있어요.</p>
+<p>아래에서 등차수열부터 차근차근 살펴볼게요.</p>
+<p>원리부터 쌓으면 수열은 수능 수학의 든든한 점수원이 될 수 있어요.</p>
+<p>규칙을 찾는 힘은 수학 전체에서 큰 도움이 돼요.</p>
+</div><div class="pbox"><h2>등차수열</h2>
+<p>등차수열은 첫째항부터 차례로 일정한 수를 더하여 만든 수열이에요. 이 일정한 수를 공차라고 해요. 2, 5, 8, 11은 첫째항이 2이고 공차가 3인 등차수열이에요.</p>
+<p>등차수열의 일반항은 첫째항에 공차를 n빼기1번 더한 값이에요. 첫째항이 a, 공차가 d이면 제n항은 a 더하기 n빼기1 곱하기 d예요.</p>
+<p>n빼기1인 이유를 생각해 보세요. 첫째항에서 둘째항으로 갈 때 공차를 한 번 더하고, 셋째항으로 갈 때 두 번 더하니까, 제n항까지는 n빼기1번 더하게 돼요. 이 원리를 알면 번호를 헷갈리지 않아요.</p>
+<p>등차수열의 문제에서는 두 항이 주어지고 첫째항과 공차를 구하는 경우가 많아요. 두 항을 일반항 식으로 나타내 연립방정식을 풀면 돼요.</p>
+<p>등차중항도 알아두세요. 세 수 a, b, c가 차례로 등차수열을 이루면 가운데 b는 a와 c의 평균이에요. 즉 2b는 a 더하기 c예요.</p>
+<p>등차수열의 합은 첫째항과 끝항을 더한 값에 항의 개수를 곱하고 2로 나누어 구해요. 이 공식은 수열을 앞에서부터 더한 것과 뒤에서부터 더한 것을 합치면 같은 값이 n번 나온다는 원리에서 나와요.</p>
+<p>끝항을 모를 때는 첫째항과 공차를 이용한 합의 공식을 쓰면 돼요. 두 공식이 같은 원리에서 나왔다는 것을 이해하면 상황에 맞게 골라 쓸 수 있어요.</p>
+<p>등차수열의 합이 최대나 최소가 되는 경우를 묻는 문제도 자주 나와요. 항의 부호가 바뀌는 지점을 찾으면 합이 최대나 최소가 되는 n을 구할 수 있어요.</p>
+<p>등차수열의 합을 n에 대한 이차식으로 보는 관점도 중요해요. 합이 상수항이 없는 이차식이면 그 수열은 첫째항부터 등차수열이에요.</p>
+<p>교과서 예제를 풀며 일반항과 합의 공식이 나오는 원리를 직접 유도해 보세요.</p>
+<div class="callout"><strong>핵심 정리</strong>등차수열의 원리를 이해하면 등비수열도 같은 틀로 쉽게 이해할 수 있어요.</div>
+</div><div class="pbox"><h2>등비수열</h2>
+<p>등비수열은 첫째항부터 차례로 일정한 수를 곱하여 만든 수열이에요. 이 일정한 수를 공비라고 해요. 3, 6, 12, 24는 첫째항이 3이고 공비가 2인 등비수열이에요.</p>
+<p>등비수열의 일반항은 첫째항에 공비를 n빼기1번 곱한 값이에요. 첫째항이 a, 공비가 r이면 제n항은 a 곱하기 r의 n빼기1제곱이에요. 등차수열과 마찬가지로 n빼기1이라는 점을 기억하세요.</p>
+<p>등비수열 문제에서 두 항이 주어지면 일반항 식으로 나타낸 뒤 두 식을 나누면 공비를 쉽게 구할 수 있어요. 등차수열은 빼고, 등비수열은 나눈다고 기억하면 좋아요.</p>
+<p>등비중항도 알아두세요. 세 수 a, b, c가 차례로 등비수열을 이루면 b의 제곱은 a 곱하기 c예요.</p>
+<p>등비수열의 합은 공비가 1이 아닐 때와 1일 때를 구분해야 해요. 공비가 1이면 모든 항이 같으니까 합은 첫째항에 n을 곱한 값이에요.</p>
+<p>공비가 1이 아니면 합은 첫째항 곱하기 공비의 n제곱 빼기 1을 공비 빼기 1로 나눈 값이에요. 이 공식은 합에 공비를 곱한 식에서 원래 합을 빼면 중간 항들이 사라진다는 원리에서 나와요.</p>
+<p>공비가 1인지 아닌지 확인하지 않고 공식을 쓰면 분모가 0이 되어 틀리게 돼요. 공비가 미지수인 문제에서는 꼭 두 경우를 나누어 생각하세요.</p>
+<p>등비수열은 실생활 문제에도 자주 쓰여요. 일정한 비율로 늘어나는 양이나 원리합계 문제는 등비수열의 합으로 해결할 수 있어요.</p>
+<p>등차수열과 등비수열의 공식을 표로 나란히 정리하세요. 일반항, 중항, 합의 공식을 비교하면 헷갈리지 않아요.</p>
+<p>공식이 나오는 원리를 직접 써보는 연습을 하면 공식을 잊어도 다시 만들어 낼 수 있어요.</p>
+<p>두 수열을 확실히 구분하면 수열 단원의 기본이 탄탄해져요.</p>
+</div><div class="mid-cta"><strong>우리 아이에게 맞는지 궁금하시다면</strong><br><mark class="free">30분 무료체험수업</mark>으로 먼저 확인해보세요. <a class="cta-btn" href="../apply.html">무료체험 신청하기 →</a></div><div class="pbox"><h2>수열의 합과 시그마</h2>
+<p>시그마는 수열의 합을 간단히 나타내는 기호예요. 시그마 아래에는 시작하는 번호를, 위에는 끝나는 번호를, 오른쪽에는 일반항을 써요.</p>
+<p>시그마를 읽을 때는 범위를 정확히 확인하세요. 시작 번호가 1이 아닌 경우도 있어서, 항의 개수를 셀 때 끝 번호에서 시작 번호를 빼고 1을 더해야 해요.</p>
+<p>시그마의 성질을 알아두세요. 합과 차는 각각 나누어 계산할 수 있고, 상수배는 시그마 밖으로 꺼낼 수 있어요. 상수의 합은 상수에 항의 개수를 곱한 값이에요.</p>
+<p>시그마에서 자주 하는 실수는 곱의 시그마를 시그마의 곱으로 나누는 거예요. 곱은 따로 나눌 수 없다는 점을 꼭 기억하세요.</p>
+<p>자연수의 거듭제곱의 합 공식도 알아두세요. 1부터 n까지의 합, 제곱의 합, 세제곱의 합 공식은 시그마 계산에서 자주 쓰여요.</p>
+<p>분수 꼴의 수열의 합은 부분분수로 나누어 계산해요. 분수를 두 분수의 차로 나누면 중간 항들이 서로 지워져서 처음과 끝 항만 남아요.</p>
+<p>부분분수로 나눌 때는 앞에 곱해야 하는 상수를 꼭 확인하세요. 두 분모의 차로 나누어야 원래 분수와 같아져요.</p>
+<p>여러 가지 수열의 합 문제는 일반항을 먼저 구하는 것이 첫 단계예요. 일반항을 구하면 시그마의 성질과 공식으로 합을 계산할 수 있어요.</p>
+<p>계차수열도 알아두세요. 이웃한 두 항의 차가 이루는 수열을 이용하면 원래 수열의 일반항을 구할 수 있어요.</p>
+<p>시그마 계산은 연습량이 중요해요. 다양한 유형을 꾸준히 풀어보세요.</p>
+<div class="callout"><strong>핵심 정리</strong>시그마를 자유롭게 다룰 수 있으면 수열 단원의 계산 문제는 대부분 해결할 수 있어요.</div>
+</div><div class="pbox"><h2>합과 일반항의 관계와 귀납적 정의</h2>
+<p>수열의 합이 주어졌을 때 일반항을 구하는 방법을 알아두세요. 제n항은 첫째항부터 제n항까지의 합에서 첫째항부터 제n빼기1항까지의 합을 빼서 구해요.</p>
+<p>이 관계는 n이 2 이상일 때만 성립해요. 첫째항은 첫째항까지의 합과 같으니까 따로 구해야 해요. 구한 일반항에 n이 1일 때를 넣어 첫째항과 같은지 반드시 확인하세요.</p>
+<p>합이 상수항이 있는 이차식이면 첫째항이 나머지 항들의 규칙과 맞지 않아서 첫째항부터 등차수열이 아니에요. 이런 경우는 시험에 자주 출제돼요.</p>
+<p>귀납적 정의는 첫째항과 이웃한 항 사이의 관계식으로 수열을 정의하는 방법이에요. 다음 항이 앞의 항에 일정한 수를 더한 것이면 등차수열, 곱한 것이면 등비수열이에요.</p>
+<p>규칙이 복잡한 귀납적 정의는 첫째항부터 몇 개의 항을 직접 구해보세요. 직접 나열하면 규칙이 보이는 경우가 많아요. 일정한 주기로 반복되는 수열도 이 방법으로 찾을 수 있어요.</p>
+<p>조건에 따라 다른 식을 적용하는 수열도 자주 출제돼요. 항이 홀수인지 짝수인지에 따라 다른 규칙을 적용하는 문제는 차근차근 나열하며 따라가면 풀 수 있어요.</p>
+<p>수학적 귀납법은 자연수 n에 대한 명제가 모든 자연수에서 성립함을 증명하는 방법이에요. n이 1일 때 성립함을 보이고, n이 k일 때 성립하면 k 더하기 1일 때도 성립함을 보이면 돼요.</p>
+<p>수학적 귀납법 문제는 빈칸 채우기 형태로 자주 나와요. 증명의 흐름을 이해하고, 가정을 어떻게 활용하는지 확인하면 빈칸을 채울 수 있어요.</p>
+<p>고난도 수열 문제는 조건을 하나씩 식으로 옮기고, 가능한 경우를 나누어 따져보는 끈기가 필요해요.</p>
+<p>틀린 문제는 풀이 과정을 다시 쓰며 어느 단계에서 막혔는지 확인하세요.</p>
+<p>합과 일반항, 귀납적 정의를 확실히 하면 수열의 고난도 문제에도 도전할 수 있어요.</p>
+</div><div class="pbox"><h2>1:1 화상 수학 수업으로 수열 잡기</h2>
+<p>수열은 학생이 공식을 어떻게 적용하고 조건을 어떻게 식으로 옮기는지 함께 봐주는 것이 가장 효과적이에요. 1:1 수업에서는 선생님이 학생의 풀이 과정을 직접 보면서 막히는 부분을 바로 짚어줄 수 있어요.</p>
+<p>화상 수업에서는 화면 공유와 필기 도구를 이용해 공식이 나오는 원리를 함께 유도하고, 항을 나열하며 규칙을 찾는 과정을 보여줘요. 학생이 푼 과정을 함께 보며 번호를 밀리는 실수를 확인할 수 있어요.</p>
+<p>거제고등학교 학생이라면 학교 진도와 시험 일정에 맞춰 수업을 구성할 수 있어요. 시험 범위와 학교 프린트를 기준으로 서술형까지 함께 대비해요.</p>
+<p>이동 시간이 없어서 방과 후와 야간자율학습 전후 시간을 효율적으로 쓸 수 있고, 수업은 녹화되어 복습할 때 다시 볼 수 있어요.</p>
+<p>티치핏거제에서는 상담할 때 학년, 최근 내신과 모의고사 성적, 어려워하는 단원을 먼저 여쭤봐요. 학생의 수준에 맞춰 개념 보충과 문제 풀이 비중을 정해 계획을 세워 드려요.</p>
+<p>수열 이후에는 미적분 과목까지 이어서 학습할 수 있어서 수능 수학 공통 과목 전체를 체계적으로 준비할 수 있어요.</p>
+<p>수업 후에는 배운 개념과 문제, 과제를 정리해 드려서 다음 수업 전까지 스스로 복습할 수 있어요.</p>
+<p>수열이 고민이시라면 <mark class="free">30분 무료체험수업</mark>으로 먼저 수업 방식을 확인해 보세요. 최근 시험지나 문제집을 준비해 오시면 약점 분석부터 함께 해볼 수 있어요.</p>
+<p>상담과 체험은 모두 무료예요. 규칙을 찾는 힘이 생기면 수능 수학의 고난도 문제에도 자신감이 생길 거예요.</p>
+<p>거제 지역에서 학원을 오가는 시간이 부담스러운 학생도 집에서 바로 수업을 받을 수 있어서, 그 시간을 문제 풀이에 쓸 수 있어요.</p>
+<p>원리를 이해한 공부는 수학에 대한 자신감을 오래 지켜줘요.</p>
+<p><strong>Q. 수열 단원만 집중해서 수업할 수 있나요?</strong><br>
+네, 학생이 어려워하는 단원에 맞춰 등차수열부터 수학적 귀납법까지 집중적으로 수업할 수 있어요.</p>
+<p><strong>Q. 공식이 너무 많아서 헷갈려요.</strong><br>
+공식이 나오는 원리를 함께 유도하고 등차와 등비를 표로 비교해서, 외우지 않아도 다시 만들어 낼 수 있도록 도와 드려요.</p>
+<p><strong>Q. 수능 고난도 수열 문제도 대비할 수 있나요?</strong><br>
+네, 기본 개념을 다진 뒤 귀납적 정의와 조건이 복잡한 문제를 단계별로 연습하며 접근법을 익혀 드려요.</p>
+</div>
+  </article>
+</section>
+<section>
+  <div class="cta-big">
+  <div class="cta-big-text">
+    <span class="cta-badge">무료</span>
+    <h2>30분 무료체험수업 먼저 받아보세요</h2>
+    <p>이름과 연락처만 남기시면 24시간 이내에 담당자가 연락드려요. 체험 후 마음에 들 때만 결정하세요.</p>
+  </div>
+  <div class="cta-big-btns">
+    <a class="cta-main" href="../apply.html">무료체험 신청하기 →</a>
+    <a class="cta-sub" href="tel:01031315305">전화 010-3131-5305</a>
+    <a class="cta-sub" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">카카오톡 상담</a>
+  </div>
+</div>
+</section>
+<p style="margin-top:14px;"><a href="../blog.html">← 블로그 목록으로</a></p>
+
+</main>
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="logo" href="../index.html" style="margin-bottom:10px;"><span class="mark">TF</span>티치핏거제</a>
+      <div class="fnav">
+        <a href="../services.html">화상과외 소개</a><a href="../process.html">매칭 방식</a><a href="../teachers.html">선생님</a><a href="../regions.html">거제 학교별 과외</a><a href="../blog.html">블로그</a>
+      </div>
+      <p class="disclaimer">전화 010-3131-5305 · 운영시간 09:00–21:00 · 상담 및 매칭 신청은 무료이며, 실제 수업 진행 여부와 비용은 상담 후 안내해 드립니다. 사업자 정보는 확정 후 별도 고지 예정입니다.</p>
+    </div>
+  </div>
+</footer>
+<script src="../assets/site.js?v=6af2d58710"></script>
+<a class="kakao-fab" href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">
+  <span class="kakao-fab-ico">💬</span><span class="kakao-fab-label">카톡 상담</span>
+</a>
+
+<div class="mobile-cta-bar">
+  <a class="msc-call" href="tel:01031315305">📞 전화상담</a>
+  <a class="msc-apply" href="../apply.html">무료 상담 신청</a>
+</div>
+<div class="q-modal" id="qModal" aria-hidden="true">
+  <form class="quick" action="https://formsubmit.co/ookkoo12@naver.com" method="POST">
+    <input type="hidden" name="_subject" value="[티치핏거제] 팝업 상담 신청">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://geoje.slovrest.com/thanks.html">
+    <input type="hidden" name="신청경로" value="팝업">
+    <input type="hidden" name="과목" class="q-in-sub">
+    <input type="hidden" name="학년" class="q-in-grade">
+    <button type="button" class="q-close" aria-label="닫기">✕</button>
+    <div class="q-step q-s1 on">
+      <span class="q-badge">30분 무료체험수업</span>
+      <div class="q-title">어떤 과목이 고민이세요?<small>과목만 고르시면 거제 학교 진도에 맞는 선생님을 찾아 연락드려요</small></div>
+      <div class="q-tiles"><button type="button" data-s="수학과외" data-h="빠진 단원부터 찾아 채워요"><b>📐</b>수학과외<i>빠진 단원부터 찾아 채워요</i></button><button type="button" data-s="영어과외" data-h="단어·문법·서술형까지"><b>🔤</b>영어과외<i>단어·문법·서술형까지</i></button><button type="button" data-s="국어과외" data-h="교과서 지문·문법·독해"><b>📖</b>국어과외<i>교과서 지문·문법·독해</i></button><button type="button" data-s="초등 전과목" data-h="기초 학습 습관부터"><b>✏️</b>초등 전과목<i>기초 학습 습관부터</i></button><button type="button" data-s="과학·사회" data-h="개념 정리와 서술형 대비"><b>🔬</b>과학·사회<i>개념 정리와 서술형 대비</i></button><button type="button" data-s="자기주도학습" data-h="공부 계획과 습관 만들기"><b>🧭</b>자기주도학습<i>공부 계획과 습관 만들기</i></button></div>
+      <div class="q-alt"><a href="tel:01031315305">📞 010-3131-5305</a><a href="https://open.kakao.com/o/sCdocZOi" target="_blank" rel="noopener">💬 카톡 상담</a></div>
+    </div>
+    <div class="q-step q-s2">
+      <button type="button" class="q-back">← 다시 고르기</button>
+      <div class="q-chosen"></div><div class="q-hint"></div>
+      <span class="q-lbl">학년</span>
+      <div class="q-chips"><button type="button">초1~3</button><button type="button">초4~6</button><button type="button">중1</button><button type="button">중2</button><button type="button">중3</button><button type="button">고1</button><button type="button">고2</button><button type="button">고3</button></div>
+      <span class="q-lbl">연락처</span>
+      <div class="q-row2"><input type="text" name="학생이름" placeholder="학생 이름 *" required><input type="tel" name="연락처" placeholder="연락처 *" required></div>
+      <input type="text" name="학교" placeholder="재학 중인 학교 (선택)">
+      <button type="submit" class="q-submit">무료체험 신청하기</button>
+      <p class="q-note">상담·체험 모두 무료 · 24시간 이내 연락드려요</p>
+    </div>
+  </form>
+</div>
+<button type="button" class="q-fab" id="qFab">⚡ 무료체험 신청</button>
+
+</body>
+</html>
