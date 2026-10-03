@@ -6,9 +6,44 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 02 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>거제제일고등학교 국어과외, 현대소설 시점과 서술자 분석</title>
+    <link>https://geoje.slovrest.com/blog/geoje-jeil-hs-gugeo-soseol-sijeom.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-jeil-hs-gugeo-soseol-sijeom.html</guid>
+    <description>현대소설에서 시점과 서술자를 구분하지 못해 서술상 특징 문제를 자주 틀리는 거제제일고등학교 학생을 위해 핵심 개념과 풀이법을 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>해성중학교 수학과외, 일차함수 기울기와 절편 완성</title>
+    <link>https://geoje.slovrest.com/blog/geoje-haeseong-ms-suhak-ilchahamsu.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-haeseong-ms-suhak-ilchahamsu.html</guid>
+    <description>일차함수에서 기울기와 y절편을 헷갈리고 그래프와 식을 연결하지 못하는 해성중학교 학생을 위해 핵심 개념과 풀이 순서를 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>숭덕초등학교 국어과외, 독서 감상문 잘 쓰는 법</title>
+    <link>https://geoje.slovrest.com/blog/geoje-sungdeok-es-gugeo-dokseo-gamsangmun.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-sungdeok-es-gugeo-dokseo-gamsangmun.html</guid>
+    <description>책을 읽고 나서 줄거리만 길게 쓰고 생각과 느낌은 한두 줄로 끝내는 숭덕초등학교 학생을 위해 독서 감상문 쓰는 방법을 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>송정초등학교 영어과외, 영어 단어 오래 기억하는 법</title>
+    <link>https://geoje.slovrest.com/blog/geoje-songjeong-es-yeongeo-daneo.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-songjeong-es-yeongeo-daneo.html</guid>
+    <description>영어 단어를 외워도 금방 잊어버리고 철자를 자주 틀리는 송정초등학교 학생을 위해 오래 기억에 남는 단어 공부법을 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>삼룡초등학교 수학과외, 나눗셈 몫과 나머지 정복</title>
+    <link>https://geoje.slovrest.com/blog/geoje-samryong-es-suhak-namoji.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-samryong-es-suhak-namoji.html</guid>
+    <description>나눗셈에서 나머지를 잘못 구하고 나머지가 있는 문장제에서 답을 정하지 못하는 삼룡초등학교 학생을 위해 몫과 나머지를 정리했어요.</description>
+    <pubDate>Sat, 03 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>거제고현중학교 수학과외, 경우의 수와 확률 기초</title>
     <link>https://geoje.slovrest.com/blog/geoje-gohyeon-ms-suhak-hwakryul.html</link>
