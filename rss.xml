@@ -6,9 +6,44 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sun, 04 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>거제중앙고등학교 영어과외, 빈칸추론 재진술 찾기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-jungang-hs-yeongeo-binkan-churon.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-jungang-hs-yeongeo-binkan-churon.html</guid>
+    <description>빈칸추론 지문을 해석했는데도 정답을 고르지 못하고 시간만 쓰는 거제중앙고등학교 학생을 위해 빈칸과 같은 내용을 반복하는 재진술 찾는 법을 정리했어요.</description>
+    <pubDate>Mon, 05 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제중학교 수학과외, 연립방정식 가감법과 대입법</title>
+    <link>https://geoje.slovrest.com/blog/geoje-ms-suhak-yeollip-bangjeongsik.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-ms-suhak-yeollip-bangjeongsik.html</guid>
+    <description>연립방정식에서 어떤 미지수를 없앨지 정하지 못하고 계수를 맞추는 과정에서 부호 실수를 하는 거제중학교 학생을 위해 풀이법을 정리했어요.</description>
+    <pubDate>Mon, 05 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>외포초등학교 국어과외, 띄어쓰기 원칙 익히기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-oepo-es-gugeo-ttuieosseugi.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-oepo-es-gugeo-ttuieosseugi.html</guid>
+    <description>글을 쓸 때 조사를 띄어 쓰거나 의존 명사와 단위를 붙여 쓰는 외포초등학교 학생을 위해 띄어쓰기의 기본 원칙과 연습법을 정리했어요.</description>
+    <pubDate>Mon, 05 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>외간초등학교 영어과외, 좋아하는 음식 영어로 말하기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-oegan-es-yeongeo-eumsik-pyohyeon.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-oegan-es-yeongeo-eumsik-pyohyeon.html</guid>
+    <description>음식 단어는 알지만 좋아하는 음식을 묻고 답하거나 식당에서 주문하는 표현을 말하지 못하는 외간초등학교 학생을 위해 음식 표현을 정리했어요.</description>
+    <pubDate>Mon, 05 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>오비초등학교 수학과외, 약분과 통분 확실하게</title>
+    <link>https://geoje.slovrest.com/blog/geoje-obi-es-suhak-yakbun-tongbun.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-obi-es-suhak-yakbun-tongbun.html</guid>
+    <description>약분할 때 분자와 분모를 서로 다른 수로 나누거나 통분할 때 분모에만 곱하는 오비초등학교 학생을 위해 약분과 통분의 원리와 순서를 정리했어요.</description>
+    <pubDate>Mon, 05 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>해성고등학교 국어과외, 음운 변동 완벽 정리</title>
     <link>https://geoje.slovrest.com/blog/geoje-haeseong-hs-gugeo-eumun-byeondong.html</link>
