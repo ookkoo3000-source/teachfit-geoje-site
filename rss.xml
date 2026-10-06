@@ -6,9 +6,44 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Mon, 05 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>진목초등학교 국어과외, 토의 의견 말하고 모으기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-jinmok-es-gugeo-toui.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-jinmok-es-gugeo-toui.html</guid>
+    <description>토의 시간에 의견은 있는데 근거 없이 말하거나 친구 의견과 비교하지 못하는 진목초등학교 학생을 위해 토의 절차와 말하기 방법을 정리했어요.</description>
+    <pubDate>Tue, 06 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>칠천초등학교 영어과외, 기분과 감정 표현 말하기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-chilcheon-es-yeongeo-gamjeong.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-chilcheon-es-yeongeo-gamjeong.html</guid>
+    <description>How are you?에 늘 I'm fine만 말하고 happy, sad 말고 다른 감정 표현과 이유를 붙여 말하지 못하는 칠천초등학교 학생을 위해 감정 표현을 정리했어요.</description>
+    <pubDate>Tue, 06 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>창호초등학교 수학과외, 막대그래프 읽고 그리기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-changho-es-suhak-makdae-graph.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-changho-es-suhak-makdae-graph.html</guid>
+    <description>눈금 한 칸의 크기를 확인하지 않고 그래프를 읽거나 세로 눈금을 잘못 정해 그래프를 그리는 창호초등학교 학생을 위해 막대그래프를 정리했어요.</description>
+    <pubDate>Tue, 06 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>중곡초등학교 영어과외, 과거형 동사로 지난 일 말하기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-junggok-es-yeongeo-gwageohyeong.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-junggok-es-yeongeo-gwageohyeong.html</guid>
+    <description>played, visited는 쓰는데 went, ate, saw 같은 불규칙 동사에서 막히고 과거 질문에 대답을 못 하는 중곡초등학교 학생을 위해 과거형 표현을 정리했어요.</description>
+    <pubDate>Tue, 06 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>제산초등학교 수학과외, 소수의 곱셈 소수점 위치 잡기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-jesan-es-suhak-sosu-gopsem.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-jesan-es-suhak-sosu-gopsem.html</guid>
+    <description>곱셈은 맞게 해 놓고 소수점을 엉뚱한 자리에 찍거나 0.3×0.2를 0.6이라고 쓰는 제산초등학교 학생을 위해 소수의 곱셈 원리를 정리했어요.</description>
+    <pubDate>Tue, 06 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>거제중앙고등학교 영어과외, 빈칸추론 재진술 찾기</title>
     <link>https://geoje.slovrest.com/blog/geoje-jungang-hs-yeongeo-binkan-churon.html</link>
