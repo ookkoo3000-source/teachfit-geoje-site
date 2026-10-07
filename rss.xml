@@ -6,9 +6,44 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 06 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>거제옥포고등학교 영어과외, 주어 동사 수일치 어법</title>
+    <link>https://geoje.slovrest.com/blog/geoje-okpo-hs-yeongeo-sueilchi.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-okpo-hs-yeongeo-sueilchi.html</guid>
+    <description>주어가 길어지면 동사를 단수로 쓸지 복수로 쓸지 헷갈려 어법 문제에서 자주 틀리는 거제옥포고등학교 학생을 위해 주어와 동사의 수일치를 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제고등학교 수학과외, 원의 방정식과 위치 관계</title>
+    <link>https://geoje.slovrest.com/blog/geoje-hs-suhak-won-bangjeongsik.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-hs-suhak-won-bangjeongsik.html</guid>
+    <description>원의 방정식의 일반형을 표준형으로 바꾸지 못하고 원과 직선의 위치 관계, 접선 문제에서 막히는 거제고등학교 학생을 위해 원의 방정식을 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제상문중학교 국어과외, 매체 자료 비판적으로 읽기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-sangmun-ms-gugeo-maeche.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-sangmun-ms-gugeo-maeche.html</guid>
+    <description>뉴스와 광고, 인터넷 글을 그대로 믿고 정보의 신뢰성과 표현 의도를 따져 보는 문제에서 막히는 거제상문중학교 학생을 위해 매체 읽기를 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>장평초등학교 영어과외, 날씨 묻고 답하기 표현</title>
+    <link>https://geoje.slovrest.com/blog/geoje-jangpyeong-es-yeongeo-nalssi.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-jangpyeong-es-yeongeo-nalssi.html</guid>
+    <description>How's the weather?에 It's sun.처럼 명사로 대답하거나 날씨에 맞는 옷과 활동을 말하지 못하는 장평초등학교 학생을 위해 날씨 표현을 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제초등학교 수학과외, 원의 중심과 반지름 지름 관계</title>
+    <link>https://geoje.slovrest.com/blog/geoje-es-suhak-won-banjireum.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-es-suhak-won-banjireum.html</guid>
+    <description>반지름과 지름을 헷갈리거나 컴퍼스로 원을 그릴 때 벌린 길이를 잘못 정하는 거제초등학교 학생을 위해 원의 구성 요소와 성질을 정리했어요.</description>
+    <pubDate>Wed, 07 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>진목초등학교 국어과외, 토의 의견 말하고 모으기</title>
     <link>https://geoje.slovrest.com/blog/geoje-jinmok-es-gugeo-toui.html</link>
