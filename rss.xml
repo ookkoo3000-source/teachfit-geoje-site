@@ -6,9 +6,44 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 07 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>장평고등학교 국어과외, 인문 철학 지문 독서 전략</title>
+    <link>https://geoje.slovrest.com/blog/geoje-jangpyeong-hs-gugeo-inmun-jimun.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-jangpyeong-hs-gugeo-inmun-jimun.html</guid>
+    <description>인문 철학 지문에서 사상가의 관점과 개념이 추상적이라 비교 문제와 보기 적용 문제를 틀리는 장평고등학교 학생을 위해 인문 지문 읽는 방법을 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>아주초등학교 국어과외, 속담과 관용 표현 뜻과 쓰임</title>
+    <link>https://geoje.slovrest.com/blog/geoje-aju-es-gugeo-sokdam.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-aju-es-gugeo-sokdam.html</guid>
+    <description>속담과 관용 표현을 글자 그대로 해석하거나 상황에 맞게 쓰지 못하는 아주초등학교 학생을 위해 속담과 관용 표현의 뜻과 활용법을 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제중앙중학교 수학과외, 삼각형의 외심과 내심 성질</title>
+    <link>https://geoje.slovrest.com/blog/geoje-jungang-ms-suhak-oesim-naesim.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-jungang-ms-suhak-oesim-naesim.html</guid>
+    <description>외심과 내심의 정의를 헷갈리고 수직이등분선과 각의 이등분선 중 무엇을 써야 할지 모르는 거제중앙중학교 학생을 위해 삼각형의 외심과 내심을 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제중학교 영어과외, 동명사와 to부정사 목적어 구분</title>
+    <link>https://geoje.slovrest.com/blog/geoje-ms-yeongeo-dongmyeongsa.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-ms-yeongeo-dongmyeongsa.html</guid>
+    <description>enjoy to swim처럼 동명사를 써야 할 자리에 to부정사를 쓰거나 동명사 주어의 수일치를 틀리는 거제중학교 학생을 위해 동명사를 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>계룡초등학교 수학과외, 올림 버림 반올림 어림하기</title>
+    <link>https://geoje.slovrest.com/blog/geoje-gyeryong-es-suhak-eorim.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-gyeryong-es-suhak-eorim.html</guid>
+    <description>올림과 버림, 반올림을 헷갈리거나 어느 자리에서 어림해야 하는지 몰라 틀리는 계룡초등학교 학생을 위해 어림하기와 수의 범위를 정리했어요.</description>
+    <pubDate>Thu, 08 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>거제옥포고등학교 영어과외, 주어 동사 수일치 어법</title>
     <link>https://geoje.slovrest.com/blog/geoje-okpo-hs-yeongeo-sueilchi.html</link>
