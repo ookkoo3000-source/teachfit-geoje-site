@@ -6,9 +6,44 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 08 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 09:40:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>거제양정초등학교 수학과외, 세 자리 수 덧셈 뺄셈 받아올림</title>
+    <link>https://geoje.slovrest.com/blog/geoje-yangjeong-es-suhak-se-jari-deotsem-ppaelsem.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-yangjeong-es-suhak-se-jari-deotsem-ppaelsem.html</guid>
+    <description>받아올림과 받아내림이 여러 번 있는 세 자리 수 계산에서 자꾸 실수하는 거제양정초등학교 학생을 위해 자릿값 원리와 정확하게 계산하는 방법을 정리했어요.</description>
+    <pubDate>Sat, 10 Oct 2026 09:40:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>연초고등학교 수학과외, 삼각함수 정의와 그래프 정리</title>
+    <link>https://geoje.slovrest.com/blog/geoje-yeoncho-hs-suhak-samgak-hamsu.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-yeoncho-hs-suhak-samgak-hamsu.html</guid>
+    <description>호도법과 일반각이 낯설고 사인, 코사인, 탄젠트의 부호와 그래프를 헷갈리는 연초고등학교 학생을 위해 삼각함수의 정의부터 그래프와 성질까지 정리했어요.</description>
+    <pubDate>Sat, 10 Oct 2026 09:30:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>거제공업고등학교 영어과외, 문장의 5형식 기초 정리</title>
+    <link>https://geoje.slovrest.com/blog/geoje-tech-hs-yeongeo-munjang-hyeongsik.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-tech-hs-yeongeo-munjang-hyeongsik.html</guid>
+    <description>영어 문장을 보면 주어와 동사를 찾지 못하고 단어 뜻만 이어 붙여 해석하는 거제공업고등학교 학생을 위해 문장의 5형식과 구조 파악 방법을 기초부터 정리했어요.</description>
+    <pubDate>Sat, 10 Oct 2026 09:20:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>신현중학교 국어과외, 품사의 종류와 구분 방법</title>
+    <link>https://geoje.slovrest.com/blog/geoje-sinhyeon-ms-gugeo-pumsa.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-sinhyeon-ms-gugeo-pumsa.html</guid>
+    <description>아홉 품사의 이름은 외웠지만 문장 속 낱말의 품사를 구분하지 못하고 형용사와 동사, 관형사와 형용사를 헷갈리는 신현중학교 학생을 위해 품사 구분 기준을 정리했어요.</description>
+    <pubDate>Sat, 10 Oct 2026 09:10:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>옥포초등학교 영어과외, 길 묻고 안내하는 영어 표현</title>
+    <link>https://geoje.slovrest.com/blog/geoje-okpo-es-yeongeo-gil-mutgi.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-okpo-es-yeongeo-gil-mutgi.html</guid>
+    <description>Where is the library? 같은 질문은 알아도 Go straight, Turn left로 길을 안내하는 말이 헷갈리는 옥포초등학교 학생을 위해 길 묻고 답하는 영어 표현을 정리했어요.</description>
+    <pubDate>Sat, 10 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>장평고등학교 국어과외, 인문 철학 지문 독서 전략</title>
     <link>https://geoje.slovrest.com/blog/geoje-jangpyeong-hs-gugeo-inmun-jimun.html</link>
