@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 14 Oct 2026 09:40:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>2028 수능 탐구, 통합사회와 통합과학을 둘 다 봐야 하나요</title>
+    <link>https://geoje.slovrest.com/blog/geoje-2028-suneung-tamgu-tonghapsahoe-tonghapgwahak.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-2028-suneung-tamgu-tonghapsahoe-tonghapgwahak.html</guid>
+    <description>2028학년도 수능부터 사회·과학탐구는 과목을 고르지 않고 통합사회와 통합과학을 모든 수험생이 함께 봐요. 시험 시간과 점수는 따로 나와요. 현행 수능과 달라진 점과 미리 챙길 내용을 교육부 확정안 기준으로 정리했어요.</description>
+    <pubDate>Sat, 17 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>거제여자상업고등학교 영어과외, 업무용 영어 이메일 쓰기</title>
     <link>https://geoje.slovrest.com/blog/geoje-girls-commerce-hs-yeongeo-email.html</link>
