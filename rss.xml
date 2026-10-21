@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 20 Oct 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>영어 단어를 외워도 금방 잊어버릴 때, 복습 간격을 바꿔 보세요</title>
+    <link>https://geoje.slovrest.com/blog/geoje-yeongdaneo-oewodo-ijeobeoryeoyo.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-yeongdaneo-oewodo-ijeobeoryeoyo.html</guid>
+    <description>영어 단어를 외운 다음 날 대부분 잊는다면, 외우는 양보다 다시 보는 간격과 방법을 바꿔야 해요. 하루·사흘·일주일 뒤 다시 보는 복습표와 문장 속에서 단어를 확인하는 방법을 정리했어요.</description>
+    <pubDate>Wed, 21 Oct 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>중학교 수학 시험에서 시간이 부족할 때, 원인별로 점검하는 법</title>
     <link>https://geoje.slovrest.com/blog/geoje-suhak-siheom-sigan-bujok.html</link>
