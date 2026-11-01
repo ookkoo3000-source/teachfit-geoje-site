@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 01 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>맞벌이 가정, 아이가 혼자 있는 오후 공부 시간 만드는 법</title>
+    <link>https://geoje.slovrest.com/blog/geoje-matbeori-ohu-honja-gongbu.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-matbeori-ohu-honja-gongbu.html</guid>
+    <description>부모님이 퇴근하기 전 아이가 혼자 있는 오후에는 공부량보다 '무엇을 언제 할지'가 눈에 보이게 정해져 있는 것이 중요해요. 오후 할 일 목록 만들기, 확인 방법, 저녁에 함께 볼 것을 정리했어요.</description>
+    <pubDate>Sun, 01 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>초등 영어 문법은 언제부터 시작해야 할까요</title>
     <link>https://geoje.slovrest.com/blog/geoje-chodeung-yeongeo-munbeop-eonje.html</link>
