@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 04 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>둔덕중학교 학부모님이 묻는 도형 문제에서 그림을 안 그리는 아이</title>
+    <link>https://geoje.slovrest.com/blog/geoje-dunduk-ms-domyeong-geurim-an-geurineun-ai.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-dunduk-ms-domyeong-geurim-an-geurineun-ai.html</guid>
+    <description>도형 문제를 머릿속으로만 풀다 틀린다면 문제의 조건을 그림에 옮겨 적는 습관부터 들이는 것이 좋아요. 둔덕중학교 학생처럼 도형 문제에서 막히는 아이가 그림을 그리는 순서와 조건 표시 방법을 학습 예시와 함께 정리했어요.</description>
+    <pubDate>Fri, 06 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>성포중학교 학부모님이 묻는 지필·수행평가 비율, 어디서 확인하나요</title>
     <link>https://geoje.slovrest.com/blog/geoje-seongpo-ms-pyeongga-gyehoek-hwagin.html</link>
