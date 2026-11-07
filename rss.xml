@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>수월중학교 학부모님이 묻는 사회 서술형 답안, 어떻게 써야 할까요</title>
+    <link>https://geoje.slovrest.com/blog/geoje-suwol-ms-sahoe-seosulhyeong-dapan.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-suwol-ms-sahoe-seosulhyeong-dapan.html</guid>
+    <description>사회 서술형은 아는 내용을 많이 쓰기보다 문제가 요구한 조건(개념·사례·이유)을 빠짐없이 넣는 것이 핵심이에요. 수월중학교 학생이 사회 서술형 문제를 읽고 답안을 쓰는 순서와 자주 감점되는 부분을 정리했어요.</description>
+    <pubDate>Sat, 07 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>둔덕중학교 학부모님이 묻는 도형 문제에서 그림을 안 그리는 아이</title>
     <link>https://geoje.slovrest.com/blog/geoje-dunduk-ms-domyeong-geurim-an-geurineun-ai.html</link>
