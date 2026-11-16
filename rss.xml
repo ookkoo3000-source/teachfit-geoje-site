@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Sat, 07 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>거제장평중학교 3학년, 고1 수학 전에 겨울방학에 다시 볼 단원</title>
+    <link>https://geoje.slovrest.com/blog/geoje-jangpyeong-ms-jung3-gyeoul-go1-suhak-junbi.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-jangpyeong-ms-jung3-gyeoul-go1-suhak-junbi.html</guid>
+    <description>중3 겨울방학에는 고등 수학을 많이 앞서 나가기보다 고1 수학과 바로 이어지는 중학교 단원을 먼저 다시 보는 것이 좋아요. 거제장평중학교 3학년이 점검할 단원과 순서를 정리했어요.</description>
+    <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>수월중학교 학부모님이 묻는 사회 서술형 답안, 어떻게 써야 할까요</title>
     <link>https://geoje.slovrest.com/blog/geoje-suwol-ms-sahoe-seosulhyeong-dapan.html</link>
