@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 17 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 09:10:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>거제용소초등학교 학부모님이 묻는, 답은 맞는데 서술형 과정 점수를 못 받는 아이</title>
+    <link>https://geoje.slovrest.com/blog/geoje-yongso-es-suhak-seosulhyeong-gwajeongjeomsu.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-yongso-es-suhak-seosulhyeong-gwajeongjeomsu.html</guid>
+    <description>답이 맞아도 풀이 과정을 충분히 쓰지 않으면 서술형 점수가 깎여요. 거제용소초등학교 학생이 풀이 과정을 빠짐없이 쓰는 습관을 기르는 법을 정리했어요.</description>
+    <pubDate>Tue, 17 Nov 2026 09:10:00 +0900</pubDate>
+  </item>
   <item>
     <title>거제장평중학교 3학년, 고1 수학 전에 겨울방학에 다시 볼 단원</title>
     <link>https://geoje.slovrest.com/blog/geoje-jangpyeong-ms-jung3-gyeoul-go1-suhak-junbi.html</link>
