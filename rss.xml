@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Tue, 17 Nov 2026 09:10:00 +0900</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>경남산업고등학교 학부모님이 묻는 고등학생 영어, 중학교 기초부터 다시 해도 될까요</title>
+    <link>https://geoje.slovrest.com/blog/geoje-gyeongnam-saneop-hs-yeongeo-gicho-dasi.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-gyeongnam-saneop-hs-yeongeo-gicho-dasi.html</guid>
+    <description>고등학생이 영어 기초가 부족하다면 중학교 수준부터 다시 하는 것이 늦은 일이 아니에요. 경남산업고등학교 학생처럼 영어 기초를 다시 세우려는 고등학생이 어디서부터, 어떤 순서로 시작하면 좋을지 정리했어요.</description>
+    <pubDate>Wed, 18 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>거제용소초등학교 학부모님이 묻는, 답은 맞는데 서술형 과정 점수를 못 받는 아이</title>
     <link>https://geoje.slovrest.com/blog/geoje-yongso-es-suhak-seosulhyeong-gwajeongjeomsu.html</link>
