@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 18 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>계룡중학교 학부모님이 묻는 국어 시험에서 시간이 모자라는 아이</title>
+    <link>https://geoje.slovrest.com/blog/geoje-gyeryong-ms-gugeo-siheom-sigan-bujok.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-gyeryong-ms-gugeo-siheom-sigan-bujok.html</guid>
+    <description>국어 시험에서 지문을 읽다가 시간이 모자라 뒤쪽 문제를 못 푸는 아이가 있어요. 계룡중학교 학생처럼 국어 시험 시간이 부족한 아이가 원인을 찾고, 문제 푸는 순서와 지문 읽는 방법을 바꿔 보는 방법을 정리했어요.</description>
+    <pubDate>Sat, 21 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>경남산업고등학교 학부모님이 묻는 고등학생 영어, 중학교 기초부터 다시 해도 될까요</title>
     <link>https://geoje.slovrest.com/blog/geoje-gyeongnam-saneop-hs-yeongeo-gicho-dasi.html</link>
