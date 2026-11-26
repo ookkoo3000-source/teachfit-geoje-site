@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Wed, 25 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>동부중학교 학부모님이 묻는 영어 의문문·부정문을 자꾸 틀리는 아이</title>
+    <link>https://geoje.slovrest.com/blog/geoje-dongbu-ms-yeongeo-uimunmun-bujeongmun.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-dongbu-ms-yeongeo-uimunmun-bujeongmun.html</guid>
+    <description>Do you…?와 Are you…?를 헷갈리거나 don’t와 isn’t를 섞어 쓰는 중학생이 많아요. 동부중학교 학생처럼 영어 의문문·부정문을 자꾸 틀리는 아이가 be동사와 일반동사를 먼저 구분하고 바꿔 쓰는 연습 방법을 정리했어요.</description>
+    <pubDate>Thu, 26 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>거제중앙초등학교 학부모님이 묻는, 국어 교과서 낱말 뜻 찾아보기 귀찮아하는 아이</title>
     <link>https://geoje.slovrest.com/blog/geoje-jungang-es-eohwi-chajgi-gwichanh.html</link>
