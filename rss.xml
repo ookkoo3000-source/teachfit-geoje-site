@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Thu, 26 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 09:00:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>거제용산초등학교 학부모님이 묻는, 띄어쓰기를 자꾸 틀리는 아이</title>
+    <link>https://geoje.slovrest.com/blog/geoje-yongsan-es-ttwieosseugi-jaju-teullinda.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-yongsan-es-ttwieosseugi-jaju-teullinda.html</guid>
+    <description>말은 또박또박 잘하는데 글로 쓸 때는 띄어쓰기를 자꾸 틀리는 건 눈으로 읽을 때와 손으로 쓸 때 신경 쓰는 부분이 다르기 때문인 경우가 많아요. 거제용산초등학교 학생이 띄어쓰기 규칙을 눈에 익히는 연습법을 정리했어요.</description>
+    <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+  </item>
   <item>
     <title>동부중학교 학부모님이 묻는 영어 의문문·부정문을 자꾸 틀리는 아이</title>
     <link>https://geoje.slovrest.com/blog/geoje-dongbu-ms-yeongeo-uimunmun-bujeongmun.html</link>
