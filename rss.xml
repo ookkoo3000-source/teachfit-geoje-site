@@ -6,9 +6,16 @@
   <description>거제 학교별 내신·과목별 화상과외 학습 전략</description>
   <language>ko-kr</language>
   <atom:link href="https://geoje.slovrest.com/rss.xml" rel="self" type="application/rss+xml"/>
-  <lastBuildDate>Fri, 27 Nov 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 09:10:00 +0900</lastBuildDate>
 
   <!-- RSS_ITEMS_START -->
+  <item>
+    <title>거제상문고등학교 학부모님이 묻는 수학 개념 정리 노트, 시간 아깝지 않을까요</title>
+    <link>https://geoje.slovrest.com/blog/geoje-sangmun-hs-suhak-gaenyeom-noteu.html</link>
+    <guid>https://geoje.slovrest.com/blog/geoje-sangmun-hs-suhak-gaenyeom-noteu.html</guid>
+    <description>수학 개념 정리 노트를 예쁘게 만드느라 문제 풀 시간이 없는 고등학생이 있어요. 거제상문고등학교 학생처럼 개념 노트를 쓸지 고민하는 아이가 시간을 덜 쓰면서 도움이 되는 노트를 만드는 방법을 정리했어요.</description>
+    <pubDate>Fri, 27 Nov 2026 09:10:00 +0900</pubDate>
+  </item>
   <item>
     <title>거제용산초등학교 학부모님이 묻는, 띄어쓰기를 자꾸 틀리는 아이</title>
     <link>https://geoje.slovrest.com/blog/geoje-yongsan-es-ttwieosseugi-jaju-teullinda.html</link>
